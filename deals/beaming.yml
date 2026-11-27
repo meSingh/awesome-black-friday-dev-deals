@@ -6,6 +6,9 @@ code: BLACKFRIDAY40
 starts: 2026-11-26
 ends: 2026-12-01
 description: A Mac app that mirrors a real iPhone, iPad or Android phone over a cable for testing and demos
-image:
-logo:
-relation: No relation
+image: https://trybeaming.app/og.png
+logo: https://trybeaming.app/beaming-icon.png
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #37

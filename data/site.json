@@ -110,6 +110,20 @@
    "added": "2026-11-26"
   },
   {
+   "id": "alttextlab",
+   "name": "AltTextLab",
+   "url": "https://www.alttextlab.com/black-friday",
+   "category": "marketing",
+   "discount": "40% off credit packs and the first year of Pro annual",
+   "code": "BF2026",
+   "starts": "2026-11-26",
+   "ends": "2026-12-01",
+   "description": "An AI tool and API that writes alt text for website images in bulk, with WordPress, Shopify and Webflow integrations",
+   "added": "2026-11-27",
+   "image": "https://cdn.prod.website-files.com/686a2cdc3f0fe49a4670202d/6b0602b102f541bebaa08eb0_alttextlab-bf2026-og-1200x630.png",
+   "logo": "https://cdn.prod.website-files.com/686a2cdc3f0fe49a4670202d/6878fb3352f762f2dc8e21a9_256.png"
+  },
+  {
    "id": "ardan-labs",
    "name": "Ardan Labs",
    "url": "https://www.ardanlabs.com/",
@@ -156,6 +170,20 @@
    "ends": "",
    "description": "AI app builder that generates full web apps with backend and hosting from prompts",
    "added": "2026-11-26"
+  },
+  {
+   "id": "beaming",
+   "name": "Beaming",
+   "url": "https://trybeaming.app/",
+   "category": "dev",
+   "discount": "40% off Beaming Pro",
+   "code": "BLACKFRIDAY40",
+   "starts": "2026-11-26",
+   "ends": "2026-12-01",
+   "description": "A Mac app that mirrors a real iPhone, iPad or Android phone over a cable for testing and demos",
+   "added": "2026-11-27",
+   "image": "https://trybeaming.app/og.png",
+   "logo": "https://trybeaming.app/beaming-icon.png"
   },
   {
    "id": "bettertouchtool",
