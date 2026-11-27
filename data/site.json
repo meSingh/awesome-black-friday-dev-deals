@@ -1200,6 +1200,20 @@
    "logo": "https://purevoltage.com/wp-content/uploads/2025/02/cropped-ico-180x180.png"
   },
   {
+   "id": "purevpn",
+   "name": "PureVPN",
+   "url": "https://identity.purevpn.com/bfcm",
+   "category": "security",
+   "discount": "92% off 1-year plan, $19.95",
+   "code": "",
+   "starts": "2026-11-27",
+   "ends": "2026-12-01",
+   "description": "A VPN with Tracker Blocker, Password Manager, Remove My Data and Dark Web Monitoring, with a 31-day money-back guarantee. Submitted by the PureVPN team",
+   "added": "2026-11-27",
+   "image": "https://images.purevpn-tools.com/wp-content/uploads/en/2024/05/Purevpn-logo-light.png",
+   "logo": "https://www.purevpn.com/wp-content/uploads/2023/02/cropped-pvpn-favicon-img-192x192.png"
+  },
+  {
    "id": "quietcraft-ui-pro",
    "name": "QuietCraft UI Pro",
    "url": "https://jumpertheme.gumroad.com/l/quietcraft-ui-pro/FIRST50",

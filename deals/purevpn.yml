@@ -1,22 +1,14 @@
 name: PureVPN
-url: https://identity.purevpn.com/bfcm?utm_source=github&utm_medium=referral&utm_campaign=bfcm2026_creatoros&utm_content=creatoros
+url: https://identity.purevpn.com/bfcm
 category: Security
 discount: 92% off 1-year plan, $19.95
 code:
 starts: 2026-11-27
 ends: 2026-12-01
-description: A VPN with Tracker Blocker, Password Manager, Remove My Data and Dark Web Monitoring, with a 31-day money-back guarantee. Submitted by the PureVPN team.
-image:
+description: A VPN with Tracker Blocker, Password Manager, Remove My Data and Dark Web Monitoring, with a 31-day money-back guarantee. Submitted by the PureVPN team
+image: https://images.purevpn-tools.com/wp-content/uploads/en/2024/05/Purevpn-logo-light.png
 logo: https://www.purevpn.com/wp-content/uploads/2023/02/cropped-pvpn-favicon-img-192x192.png
-relation: I built it
-
-
-
-
-
-
-
-
-
-
-
+relation: I built it or work on it
+added: 2026-11-27
+submitter: AliSDisrupt
+source: #75
