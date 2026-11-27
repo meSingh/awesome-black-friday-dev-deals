@@ -6,6 +6,9 @@ code: BF2026
 starts: 2026-11-27
 ends: 2026-11-30
 description: A Mac app that catches development emails locally so you can preview and check them before they reach real inboxes
-image:
+image: https://mailscope.app/og.png
 logo:
-relation: No relation
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #59

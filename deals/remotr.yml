@@ -6,6 +6,9 @@ code: 1RDUW7I6
 starts: 2026-11-27
 ends: 2026-11-30
 description: Access your Mac from Windows over RDP, with clipboard sharing and multilingual input
-image:
-logo:
-relation: No relation
+image: https://remotr.app/remotr.png?v=2
+logo: https://remotr.app/favicon-128x128.png?v=4
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #60

@@ -815,6 +815,19 @@
    "added": "2026-11-26"
   },
   {
+   "id": "mailscope",
+   "name": "MailScope",
+   "url": "https://mailscope.app/blackfriday",
+   "category": "dev",
+   "discount": "$19 instead of $29",
+   "code": "BF2026",
+   "starts": "2026-11-27",
+   "ends": "2026-11-30",
+   "description": "A Mac app that catches development emails locally so you can preview and check them before they reach real inboxes",
+   "added": "2026-11-27",
+   "image": "https://mailscope.app/og.png"
+  },
+  {
    "id": "mastering-laravel-testing",
    "name": "Mastering Laravel Testing",
    "url": "https://masteringlaravel.io/courses/testing",
@@ -1091,6 +1104,20 @@
    "logo": "https://public-files.gumroad.com/0aedv07xv4eat5ncuu4k5kdzyarx"
   },
   {
+   "id": "remotr",
+   "name": "Remotr",
+   "url": "https://remotr.app/",
+   "category": "desktop",
+   "discount": "30% off Personal and Pro",
+   "code": "1RDUW7I6",
+   "starts": "2026-11-27",
+   "ends": "2026-11-30",
+   "description": "Access your Mac from Windows over RDP, with clipboard sharing and multilingual input",
+   "added": "2026-11-27",
+   "image": "https://remotr.app/remotr.png?v=2",
+   "logo": "https://remotr.app/favicon-128x128.png?v=4"
+  },
+  {
    "id": "saasykit",
    "name": "SaaSykit",
    "url": "https://saasykit.com/",
@@ -1114,6 +1141,20 @@
    "description": "Offline freelance WBS quote estimator, 8 SOW guardrails, PDF export, and 5-sheet Excel workbook",
    "added": "2026-11-27",
    "image": "https://tolga571.github.io/assets/scopeforge.png"
+  },
+  {
+   "id": "screenkite",
+   "name": "ScreenKite",
+   "url": "https://screenkite.com/pricing",
+   "category": "desktop",
+   "discount": "30% off Pro and 40% off Founders Edition",
+   "code": "BFCM",
+   "starts": "2026-11-27",
+   "ends": "2026-11-30",
+   "description": "A Mac screen recorder and editor for product demos and tutorials",
+   "added": "2026-11-27",
+   "image": "https://www.screenkite.com/pricing/opengraph-image",
+   "logo": "https://www.screenkite.com/apple-icon.png?apple-icon.2trjfvr85-yqy.png"
   },
   {
    "id": "screenpipe",
