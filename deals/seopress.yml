@@ -2,10 +2,13 @@ name: SEOPress
 url: https://www.seopress.org/pricing/
 category: SEO and marketing
 discount: PRO for unlimited sites at $99 a year, down from $149
-code: 
+code:
 starts: 2026-11-27
 ends: 2026-12-02
 description: A WordPress plugin for titles, sitemaps, schema and other on-site SEO settings
-image:
-logo:
-relation: No relation
+image: https://www.seopress.org/wp-content/uploads/2021/09/pricing-en@2x.jpg
+logo: https://www.seopress.org/wp-content/themes/blackhat2026/assets/img/icons/apple-touch-icon.png
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: meSingh
+source: #26

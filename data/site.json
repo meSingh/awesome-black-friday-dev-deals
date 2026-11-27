@@ -862,6 +862,20 @@
    "added": "2026-11-26"
   },
   {
+   "id": "seopress",
+   "name": "SEOPress",
+   "url": "https://www.seopress.org/pricing/",
+   "category": "marketing",
+   "discount": "PRO for unlimited sites at $99 a year, down from $149",
+   "code": "",
+   "starts": "2026-11-27",
+   "ends": "2026-12-02",
+   "description": "A WordPress plugin for titles, sitemaps, schema and other on-site SEO settings",
+   "added": "2026-11-27",
+   "image": "https://www.seopress.org/wp-content/uploads/2021/09/pricing-en@2x.jpg",
+   "logo": "https://www.seopress.org/wp-content/themes/blackhat2026/assets/img/icons/apple-touch-icon.png"
+  },
+  {
    "id": "sequenzy",
    "name": "Sequenzy",
    "url": "https://www.sequenzy.com/black-friday",
@@ -981,6 +995,19 @@
    "ends": "",
    "description": "Native database GUI client for relational and NoSQL databases",
    "added": "2026-11-26"
+  },
+  {
+   "id": "tailkits-ui",
+   "name": "Tailkits UI",
+   "url": "https://tailkits.com/ui/",
+   "category": "design",
+   "discount": "60% off every plan, yearly and lifetime",
+   "code": "BLACKFRIDAY2026",
+   "starts": "2026-11-27",
+   "ends": "2026-12-01",
+   "description": "Tailwind CSS page sections in HTML and React, sold as a yearly or one-time plan",
+   "added": "2026-11-27",
+   "image": "https://tailkits.com/__og-image__/static/ui/og.png"
   },
   {
    "id": "talk-python-training",
