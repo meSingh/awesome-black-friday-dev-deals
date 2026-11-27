@@ -658,6 +658,18 @@
    "added": "2026-11-26"
   },
   {
+   "id": "navicat",
+   "name": "Navicat",
+   "url": "https://www.navicat.com/en/",
+   "category": "data",
+   "discount": "30% off in the Navicat store",
+   "code": "",
+   "starts": "2026-11-27",
+   "ends": "2026-11-29",
+   "description": "Desktop database client for MySQL, PostgreSQL, SQL Server, Oracle, SQLite and MongoDB",
+   "added": "2026-11-27"
+  },
+  {
    "id": "nuelink",
    "name": "Nuelink",
    "url": "https://nuelink.com/pricing",
