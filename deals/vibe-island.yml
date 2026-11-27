@@ -1,11 +1,14 @@
 name: Vibe Island
-url: https://vibeisland.app
+url: https://vibeisland.app/
 category: Developer tools
 discount: 40% off: 1 Mac $11.99, 2 Macs $21.99, 3 Macs $31.99
 code:
 starts: 2026-11-25
 ends: 2026-12-01
 description: Mac notch panel for Claude Code, Codex, Cursor and 27 more AI coding agents. Approve requests, answer questions or jump to the exact terminal tab
-image:
+image: https://vibeisland.app/images/og.jpg
 logo: https://vibeisland.app/icon-512.png
-relation: I built it
+relation: I built it or work on it
+added: 2026-11-27
+submitter: edwluo
+source: #35

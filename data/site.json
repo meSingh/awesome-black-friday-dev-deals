@@ -1217,6 +1217,20 @@
    "added": "2026-11-26"
   },
   {
+   "id": "vibe-island",
+   "name": "Vibe Island",
+   "url": "https://vibeisland.app/",
+   "category": "dev",
+   "discount": "40% off: 1 Mac $11.99, 2 Macs $21.99, 3 Macs $31.99",
+   "code": "",
+   "starts": "2026-11-25",
+   "ends": "2026-12-01",
+   "description": "Mac notch panel for Claude Code, Codex, Cursor and 27 more AI coding agents. Approve requests, answer questions or jump to the exact terminal tab",
+   "added": "2026-11-27",
+   "image": "https://vibeisland.app/images/og.jpg",
+   "logo": "https://vibeisland.app/icon-512.png"
+  },
+  {
    "id": "visibility-so",
    "name": "Visibility.so",
    "url": "https://visibility.so/black-friday/",
