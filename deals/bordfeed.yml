@@ -1,0 +1,11 @@
+name: Bordfeed
+url: https://bordfeed.com/black-friday
+category: Developer tools
+discount: 50% off the first 3 months on Pro, Max or Ultra
+code: BFCM50
+starts: 2026-11-27
+ends: 2026-12-04
+description: Job data API with 500,000+ live jobs from company hiring pages, refreshed nightly, by REST API, webhooks, email digests or MCP for ChatGPT and Claude
+image: https://bordfeed.com/marketing/og/black-friday.png
+logo: https://bordfeed.com/icon-192.png
+relation: I built it
