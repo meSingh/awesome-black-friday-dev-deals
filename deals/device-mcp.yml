@@ -6,6 +6,9 @@ code: BF2026
 starts: 2026-11-27
 ends: 2026-12-02
 description: An MCP server that lets AI agents use your iPhone or iPad
-image:
-logo:
-relation: No relation
+image: https://devicemcp.ai/media/og.jpg
+logo: https://devicemcp.ai/apple-touch-icon.png
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #55

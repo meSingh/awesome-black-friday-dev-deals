@@ -6,6 +6,9 @@ code: BLACKFRIDAY
 starts: 2026-11-27
 ends: 2026-12-01
 description: A Mac time tracker that logs your apps and your coding agents, with invoices by time or tokens
-image:
-logo:
-relation: No relation
+image: https://daylanes.app/assets/og.png
+logo: https://daylanes.app/assets/icon-a.png
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #54

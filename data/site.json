@@ -340,6 +340,20 @@
    "added": "2026-11-26"
   },
   {
+   "id": "daylanes",
+   "name": "Daylanes",
+   "url": "https://daylanes.app/",
+   "category": "dev",
+   "discount": "50% off, $19.50 instead of $39",
+   "code": "BLACKFRIDAY",
+   "starts": "2026-11-27",
+   "ends": "2026-12-01",
+   "description": "A Mac time tracker that logs your apps and your coding agents, with invoices by time or tokens",
+   "added": "2026-11-27",
+   "image": "https://daylanes.app/assets/og.png",
+   "logo": "https://daylanes.app/assets/icon-a.png"
+  },
+  {
    "id": "deployhq",
    "name": "DeployHQ",
    "url": "https://www.deployhq.com/pricing",
@@ -377,6 +391,20 @@
    "description": "Database tools such as dbForge Studio and data connectors for SQL Server, MySQL, PostgreSQL and Oracle",
    "added": "2026-11-27",
    "image": "https://cdn0.devart.com/images/og/devart-1200-630.png"
+  },
+  {
+   "id": "device-mcp",
+   "name": "Device MCP",
+   "url": "https://devicemcp.ai/",
+   "category": "ai",
+   "discount": "30% off all plans",
+   "code": "BF2026",
+   "starts": "2026-11-27",
+   "ends": "2026-12-02",
+   "description": "An MCP server that lets AI agents use your iPhone or iPad",
+   "added": "2026-11-27",
+   "image": "https://devicemcp.ai/media/og.jpg",
+   "logo": "https://devicemcp.ai/apple-touch-icon.png"
   },
   {
    "id": "devutils",
