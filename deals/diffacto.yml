@@ -2,10 +2,13 @@ name: Diffacto
 url: https://diffacto.com/black-friday
 category: Developer tools
 discount: 40% off Pro
-code: 
+code:
 starts: 2026-11-23
 ends: 2026-12-01
 description: A local Mac app that diffs and merges code, data, databases and documents, and reviews AI coding changes
-image:
+image: https://diffacto.com/img/share-black-friday.png
 logo:
-relation: No relation
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #56

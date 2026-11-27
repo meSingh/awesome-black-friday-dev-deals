@@ -6,6 +6,9 @@ code: 3V97KSM1
 starts: 2026-11-27
 ends: 2026-12-05
 description: A Mac app that adds app groups to the Dock and opens or closes a whole group at once
-image:
-logo:
-relation: No relation
+image: https://dockgroups.com/og-image.png
+logo: https://dockgroups.com/app-icon.png
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #57

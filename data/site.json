@@ -421,6 +421,33 @@
    "logo": "https://devutils.com/apple.png"
   },
   {
+   "id": "diffacto",
+   "name": "Diffacto",
+   "url": "https://diffacto.com/black-friday",
+   "category": "dev",
+   "discount": "40% off Pro",
+   "code": "",
+   "starts": "2026-11-23",
+   "ends": "2026-12-01",
+   "description": "A local Mac app that diffs and merges code, data, databases and documents, and reviews AI coding changes",
+   "added": "2026-11-27",
+   "image": "https://diffacto.com/img/share-black-friday.png"
+  },
+  {
+   "id": "dockgroups",
+   "name": "DockGroups",
+   "url": "https://dockgroups.com/",
+   "category": "desktop",
+   "discount": "25% off Pro, $7.49 instead of $9.99",
+   "code": "3V97KSM1",
+   "starts": "2026-11-27",
+   "ends": "2026-12-05",
+   "description": "A Mac app that adds app groups to the Dock and opens or closes a whole group at once",
+   "added": "2026-11-27",
+   "image": "https://dockgroups.com/og-image.png",
+   "logo": "https://dockgroups.com/app-icon.png"
+  },
+  {
    "id": "elevenlabs",
    "name": "ElevenLabs",
    "url": "https://elevenlabs.io/pricing",
@@ -638,6 +665,18 @@
    "ends": "2026-12-01",
    "description": "Mac app for browsing Git commits, comparing branches and resolving merge conflicts",
    "added": "2026-11-26"
+  },
+  {
+   "id": "keyboardstack",
+   "name": "KeyboardStack",
+   "url": "https://keyboardstack.com/",
+   "category": "desktop",
+   "discount": "50% off Premium, $14.99 instead of $29.99",
+   "code": "",
+   "starts": "2026-11-27",
+   "ends": "2026-12-01",
+   "description": "Control your Mac with the keyboard: navigate, click, scroll and switch windows",
+   "added": "2026-11-27"
   },
   {
    "id": "krea",
