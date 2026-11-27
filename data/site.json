@@ -1117,6 +1117,19 @@
    "added": "2026-11-26"
   },
   {
+   "id": "purevoltage",
+   "name": "PureVoltage",
+   "url": "https://purevoltage.com/black-friday-sale/vps/",
+   "category": "hosting",
+   "discount": "16 GB VPS for $75 a year instead of $120",
+   "code": "",
+   "starts": "2026-11-26",
+   "ends": "2026-12-10",
+   "description": "VPS and dedicated server hosting with data centers in New York City and Seattle",
+   "added": "2026-11-27",
+   "logo": "https://purevoltage.com/wp-content/uploads/2025/02/cropped-ico-180x180.png"
+  },
+  {
    "id": "quietcraft-ui-pro",
    "name": "QuietCraft UI Pro",
    "url": "https://jumpertheme.gumroad.com/l/quietcraft-ui-pro/FIRST50",
