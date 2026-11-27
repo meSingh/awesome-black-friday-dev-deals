@@ -1421,6 +1421,19 @@
    "added": "2026-11-27"
   },
   {
+   "id": "tangrid",
+   "name": "Tangrid",
+   "url": "https://tangrid.app/",
+   "category": "desktop",
+   "discount": "25% off",
+   "code": "BLACK5D",
+   "starts": "2026-11-27",
+   "ends": "2026-12-11",
+   "description": "A Mac window manager for tiling, snapping and tab grouping, with a window switcher",
+   "added": "2026-11-27",
+   "image": "https://tangrid.app/home/flow-demo-poster.jpg"
+  },
+  {
    "id": "testdino",
    "name": "TestDino",
    "url": "https://testdino.com/pricing",
@@ -1445,6 +1458,19 @@
    "added": "2026-11-27",
    "image": "https://testomato.com/og-image.png",
    "logo": "https://testomato.com/icons/apple-touch-icon.png"
+  },
+  {
+   "id": "the-low-tech-guys",
+   "name": "The low-tech guys apps",
+   "url": "https://lowtechguys.com/blackfriday",
+   "category": "desktop",
+   "discount": "Up to 40% off apps, extra 13% off bundles",
+   "code": "BF_LTG_2026",
+   "starts": "2026-11-20",
+   "ends": "2026-12-01",
+   "description": "Mac utilities from two brothers, including Lunar, rcmd, Clop and Cling",
+   "added": "2026-11-27",
+   "image": "https://img.panaitiu.com/_/1200/plain/https://lowtechguys.com/static/img/blackfriday-screenshot.png"
   },
   {
    "id": "things",
@@ -1637,6 +1663,18 @@
    "added": "2026-11-27",
    "image": "https://whizi.io/og/pricing.png",
    "logo": "https://whizi.io/icon-512.png"
+  },
+  {
+   "id": "wins",
+   "name": "Wins",
+   "url": "https://wins.cool/",
+   "category": "desktop",
+   "discount": "40% off new licenses and update renewals",
+   "code": "BF_26",
+   "starts": "2026-11-27",
+   "ends": "2026-12-01",
+   "description": "A Mac window manager for tiling, app previews and switching windows",
+   "added": "2026-11-27"
   },
   {
    "id": "wpdeveloper",
