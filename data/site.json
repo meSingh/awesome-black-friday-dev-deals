@@ -1143,20 +1143,6 @@
    "image": "https://tolga571.github.io/assets/scopeforge.png"
   },
   {
-   "id": "screenkite",
-   "name": "ScreenKite",
-   "url": "https://screenkite.com/pricing",
-   "category": "desktop",
-   "discount": "30% off Pro and 40% off Founders Edition",
-   "code": "BFCM",
-   "starts": "2026-11-27",
-   "ends": "2026-11-30",
-   "description": "A Mac screen recorder and editor for product demos and tutorials",
-   "added": "2026-11-27",
-   "image": "https://www.screenkite.com/pricing/opengraph-image",
-   "logo": "https://www.screenkite.com/apple-icon.png?apple-icon.2trjfvr85-yqy.png"
-  },
-  {
    "id": "screenpipe",
    "name": "Screenpipe",
    "url": "https://screenpipe.com/black-friday",
