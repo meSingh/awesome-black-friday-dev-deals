@@ -57,6 +57,10 @@
   {
    "id": "security",
    "name": "Security"
+  },
+  {
+   "id": "other",
+   "name": "Other"
   }
  ],
  "deals": [
@@ -223,6 +227,19 @@
    "added": "2026-11-27"
   },
   {
+   "id": "codify",
+   "name": "Codify",
+   "url": "https://codifycli.com/pricing",
+   "category": "dev",
+   "discount": "Freelancer at CA$1/mo and Team at CA$10/mo for life",
+   "code": "",
+   "starts": "2026-11-26",
+   "ends": "2026-12-01",
+   "description": "A tool that sets up and manages a developer machine from a config file, installing tools and settings in minutes",
+   "added": "2026-11-27",
+   "image": "https://codifycli.com/og.png"
+  },
+  {
    "id": "colossyan",
    "name": "Colossyan",
    "url": "https://www.colossyan.com/pricing",
@@ -348,6 +365,20 @@
    "added": "2026-11-26"
   },
   {
+   "id": "exploring-java-libraries",
+   "name": "Exploring Java Libraries",
+   "url": "https://leanpub.com/java-libraries-guide-1",
+   "category": "learn",
+   "discount": "50% off both volumes, $10 each",
+   "code": "BLACKFRIDAY50",
+   "starts": "2026-11-26",
+   "ends": "2026-12-10",
+   "description": "A two volume guide to 450+ Java libraries with practical examples and projects",
+   "added": "2026-11-27",
+   "image": "https://d2sofvawe08yqg.cloudfront.net/java-libraries-guide-1/s_hero2x?1795639435&1795639435",
+   "logo": "https://leanpub.com/apple-touch-icon.png"
+  },
+  {
    "id": "flavio-copes-courses",
    "name": "Flavio Copes courses",
    "url": "https://flaviocopes.com/black-friday/",
@@ -372,6 +403,20 @@
    "ends": "2026-11-30",
    "description": "UI component library for Laravel Livewire with free and paid Pro components",
    "added": "2026-11-26"
+  },
+  {
+   "id": "frameos",
+   "name": "FrameOS",
+   "url": "https://www.tryframeos.com/",
+   "category": "desktop",
+   "discount": "50% off, $19 instead of $39",
+   "code": "BLACKFRIDAY26",
+   "starts": "2026-11-26",
+   "ends": "2026-11-30",
+   "description": "A Mac app that records an iPhone or Android screen with your camera and edits it into a demo video",
+   "added": "2026-11-27",
+   "image": "https://www.tryframeos.com/og-v7.png",
+   "logo": "https://www.tryframeos.com/images/frameos-app-icon.png"
   },
   {
    "id": "frontkit",
@@ -450,6 +495,19 @@
    "added": "2026-11-27",
    "image": "https://guard.report/api/og?type=homepage",
    "logo": "https://guard.report/apple-icon.png"
+  },
+  {
+   "id": "hexos",
+   "name": "HexOS",
+   "url": "https://hexos.com/pricing",
+   "category": "other",
+   "discount": "Up to $50 off the first year",
+   "code": "",
+   "starts": "2026-11-26",
+   "ends": "2026-12-01",
+   "description": "A home server operating system built on TrueNAS for storage, apps and VMs",
+   "added": "2026-11-27",
+   "image": "https://hexos.com/images/og/home.jpg"
   },
   {
    "id": "hostinger-vps",
@@ -949,6 +1007,19 @@
    "added": "2026-11-27",
    "image": "https://screenpipe.com/opengraph-image.png?dc09ad789df8185f",
    "logo": "https://screenpipe.com/apple-icon.png?f227f1ed1b048a3c"
+  },
+  {
+   "id": "screensage-pro",
+   "name": "ScreenSage Pro",
+   "url": "https://screensage.pro/bf2026",
+   "category": "desktop",
+   "discount": "46% off the lifetime license, $79.90 instead of $149",
+   "code": "",
+   "starts": "2026-11-26",
+   "ends": "2026-12-15",
+   "description": "A Mac screen recorder for demos and tutorials, with editing, a teleprompter and 3D motion",
+   "added": "2026-11-27",
+   "image": "https://screensage.pro/images/og.png"
   },
   {
    "id": "se-ranking",

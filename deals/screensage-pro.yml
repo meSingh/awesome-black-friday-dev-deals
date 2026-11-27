@@ -2,10 +2,13 @@ name: ScreenSage Pro
 url: https://screensage.pro/bf2026
 category: Mac and desktop apps
 discount: 46% off the lifetime license, $79.90 instead of $149
-code: 
+code:
 starts: 2026-11-26
 ends: 2026-12-15
 description: A Mac screen recorder for demos and tutorials, with editing, a teleprompter and 3D motion
-image:
+image: https://screensage.pro/images/og.png
 logo:
-relation: No relation
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #42

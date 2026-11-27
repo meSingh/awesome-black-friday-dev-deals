@@ -2,10 +2,13 @@ name: HexOS
 url: https://hexos.com/pricing
 category: Other
 discount: Up to $50 off the first year
-code: 
+code:
 starts: 2026-11-26
 ends: 2026-12-01
 description: A home server operating system built on TrueNAS for storage, apps and VMs
-image:
+image: https://hexos.com/images/og/home.jpg
 logo:
-relation: No relation
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #41
