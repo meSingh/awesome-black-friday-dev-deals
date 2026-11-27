@@ -524,6 +524,20 @@
    "image": "https://hexos.com/images/og/home.jpg"
   },
   {
+   "id": "higgsfield",
+   "name": "Higgsfield",
+   "url": "https://higgsfield.ai/pricing",
+   "category": "media",
+   "discount": "Up to 75% off annual plans",
+   "code": "",
+   "starts": "2026-11-27",
+   "ends": "2026-11-28",
+   "description": "An AI suite that makes images, video and voice from text prompts or references, on the web and mobile",
+   "added": "2026-11-27",
+   "image": "https://static.higgsfield.ai/public/thumbnail/default.jpg",
+   "logo": "https://higgsfield.ai/apple-icon.png"
+  },
+  {
    "id": "hostinger-vps",
    "name": "Hostinger VPS",
    "url": "https://www.hostinger.com/black-friday-vps-deals",
