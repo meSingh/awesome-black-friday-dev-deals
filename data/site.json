@@ -670,6 +670,20 @@
    "added": "2026-11-26"
   },
   {
+   "id": "iknow-suite",
+   "name": "iKnow Suite (iKnowMyMac + iKnowMyDisplay)",
+   "url": "https://iknowmymac.com/",
+   "category": "desktop",
+   "discount": "25% off both apps, $5.99 instead of $7.99",
+   "code": "",
+   "starts": "2026-11-27",
+   "ends": "2026-12-01",
+   "description": "Two Apple silicon menu bar apps: Mac activity with history, and the display controls macOS hides",
+   "added": "2026-11-27",
+   "image": "https://iknowmymac.com/opengraph-image?2f59d404e28d4715",
+   "logo": "https://iknowmymac.com/icon.png"
+  },
+  {
    "id": "invideo",
    "name": "InVideo",
    "url": "https://invideo.io/pricing/",

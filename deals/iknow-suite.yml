@@ -6,6 +6,9 @@ code:
 starts: 2026-11-27
 ends: 2026-12-01
 description: Two Apple silicon menu bar apps: Mac activity with history, and the display controls macOS hides
-image:
+image: https://iknowmymac.com/opengraph-image?2f59d404e28d4715
 logo: https://iknowmymac.com/icon.png
-relation: I built it
+relation: I built it or work on it
+added: 2026-11-27
+submitter: deepaks612
+source: #70
