@@ -17,9 +17,14 @@ on:
 # Nothing by default; the job asks for what it needs.
 permissions: {}
 
+# One run at a time, so two runs never write the list at once. Every run waits its turn
+# (`queue: max`); without it GitHub keeps only the newest waiting run and cancels the others,
+# and a pull request whose run was cancelled shows no check at all. A run that finds its
+# pull request already handled by an earlier one has nothing left to do and passes.
 concurrency:
   group: review
   cancel-in-progress: false
+  queue: max
 
 jobs:
   review:
