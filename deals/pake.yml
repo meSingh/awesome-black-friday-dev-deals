@@ -6,6 +6,9 @@ code:
 starts: 2026-11-27
 ends: 2026-11-30
 description: Desktop app that turns any website into a lightweight Mac, Windows or Linux app, built on the open-source Pake CLI
-image:
-logo:
-relation: I built it
+image: https://pake.run/img/og.png?v=8bd005e6d311
+logo: https://pake.run/img/apple-touch-icon.png?v=05cf7dbb11d7
+relation: I built it or work on it
+added: 2026-11-27
+submitter: tw93
+source: #30

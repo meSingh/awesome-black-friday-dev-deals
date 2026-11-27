@@ -602,6 +602,20 @@
    "added": "2026-11-26"
   },
   {
+   "id": "mole",
+   "name": "Mole",
+   "url": "https://mole.fit/",
+   "category": "desktop",
+   "discount": "20% off the one-time license",
+   "code": "",
+   "starts": "2026-11-25",
+   "ends": "2026-11-30",
+   "description": "Native Mac app that cleans developer and AI tool caches, uninstalls apps and maps disk space",
+   "added": "2026-11-27",
+   "image": "https://mole.fit/img/og-cover.jpg?v=259e64b2",
+   "logo": "https://mole.fit/img/favicon-mole-192-ba32c29d.png"
+  },
+  {
    "id": "name-com",
    "name": "Name.com",
    "url": "https://www.name.com/promo/cyber-monday",
@@ -676,6 +690,20 @@
    "ends": "",
    "description": "AI meeting note-taker that records, transcribes and summarises calls",
    "added": "2026-11-26"
+  },
+  {
+   "id": "pake",
+   "name": "Pake",
+   "url": "https://pake.run/",
+   "category": "dev",
+   "discount": "20% off the one-time license",
+   "code": "",
+   "starts": "2026-11-27",
+   "ends": "2026-11-30",
+   "description": "Desktop app that turns any website into a lightweight Mac, Windows or Linux app, built on the open-source Pake CLI",
+   "added": "2026-11-27",
+   "image": "https://pake.run/img/og.png?v=8bd005e6d311",
+   "logo": "https://pake.run/img/apple-touch-icon.png?v=05cf7dbb11d7"
   },
   {
    "id": "perfmatters",

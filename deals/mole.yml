@@ -6,6 +6,9 @@ code:
 starts: 2026-11-25
 ends: 2026-11-30
 description: Native Mac app that cleans developer and AI tool caches, uninstalls apps and maps disk space
-image:
-logo:
-relation: I built it
+image: https://mole.fit/img/og-cover.jpg?v=259e64b2
+logo: https://mole.fit/img/favicon-mole-192-ba32c29d.png
+relation: I built it or work on it
+added: 2026-11-27
+submitter: tw93
+source: #29
