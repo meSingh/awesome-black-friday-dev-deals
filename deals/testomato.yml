@@ -6,6 +6,9 @@ code: BF2026
 starts: 2026-11-23
 ends: 2026-11-30
 description: Uptime, content, SSL and response time monitoring for websites, with alerts to email, Slack, Teams and Discord
-image:
-logo:
-relation: No relation
+image: https://testomato.com/og-image.png
+logo: https://testomato.com/icons/apple-touch-icon.png
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #46

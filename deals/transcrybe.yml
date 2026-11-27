@@ -2,10 +2,13 @@ name: Transcrybe
 url: https://transcrybe.app/
 category: Mac and desktop apps
 discount: 50% off the lifetime license, $14.99 instead of $29.99
-code: 
+code:
 starts: 2026-11-18
 ends: 2026-12-02
 description: A Mac app that shows live translated subtitles for microphone and app audio
-image:
+image: https://transcrybe.app/images/transcrybe-social-card.png
 logo:
-relation: No relation
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #47

@@ -2,10 +2,13 @@ name: Sindre Sorhus apps
 url: https://sindresorhus.com/apps/discounts
 category: Mac and desktop apps
 discount: Up to 50% off 16 Mac apps
-code: 
+code:
 starts: 2026-11-24
 ends: 2026-11-30
 description: Mac utilities by Sindre Sorhus, including Supercharge, Velja, Dato, Pure Paste and Aiko
-image:
-logo:
-relation: No relation
+image: https://sindresorhus.com/og/apps/discounts.jpg?v=83be97d58de27857
+logo: https://sindresorhus.com/apple-touch-icon.png
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #43

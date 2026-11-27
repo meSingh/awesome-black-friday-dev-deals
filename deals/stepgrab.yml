@@ -2,10 +2,13 @@ name: StepGrab
 url: https://stepgrab.net/black-friday/
 category: Productivity
 discount: Up to 40% off Pro Lifetime
-code: 
+code:
 starts: 2026-11-27
 ends: 2026-11-30
 description: A Mac and Windows app that records your clicks and turns them into a step by step guide with screenshots
-image:
-logo:
-relation: No relation
+image: https://stepgrab.net/og-image.png
+logo: https://stepgrab.net/icon.png
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #45

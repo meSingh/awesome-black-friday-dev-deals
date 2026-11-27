@@ -2,10 +2,13 @@ name: Unraid
 url: https://unraid.net/pricing
 category: Other
 discount: Up to 25% off Starter and Unleashed licenses
-code: 
+code:
 starts: 2026-11-25
 ends: 2026-11-30
 description: An operating system for home servers and NAS boxes that runs storage, Docker apps and VMs
-image:
-logo:
-relation: No relation
+image: https://account.unraid.net/seo-unraid.png
+logo: https://account.unraid.net/apple-touch-icon.png
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #48

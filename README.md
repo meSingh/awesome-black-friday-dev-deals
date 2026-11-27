@@ -8,7 +8,7 @@ Black Friday 2026 deals on AI and developer tools.
 Grab a code, save some money, get back to building.
 
 <!-- stats:start -->
-**108 deals and counting** · last updated 27 Nov 2026
+**115 deals and counting** · last updated 27 Nov 2026
 <!-- stats:end -->
 
 **[Add your deal](https://github.com/meSingh/awesome-black-friday-dev-deals/new/main/deals?filename=your-product.yml&value=%23%20Add%20your%20Black%20Friday%20deal.%20It%20is%20free.%0A%23%0A%23%201.%20Rename%20this%20file%20to%20your%20product%2C%20for%20example%20acme-cli.yml%0A%23%20%20%20%20%28lowercase%20letters%2C%20digits%20and%20dashes%29.%0A%23%202.%20Fill%20in%20the%20lines%20below.%20Leave%20code%2C%20image%20and%20logo%20empty%20if%20you%20have%20none.%0A%23%203.%20Click%20%22Commit%20changes%22%2C%20then%20%22Create%20pull%20request%22.%20That%20is%20all.%0A%23%0A%23%20discount%20is%2060%20characters%20or%20fewer%2C%20for%20example%3A%2040%25%20off%20annual%20plans%0A%23%20category%20is%20one%20of%3A%20AI%20tools%20%7C%20AI%20video%2C%20image%20and%20voice%20%7C%20Developer%20tools%20%7C%20Hosting%20and%20cloud%20%7C%20Databases%20and%20backend%20%7C%20Email%20%7C%20Design%20and%20UI%20%7C%20Starter%20kits%20%7C%20SEO%20and%20marketing%20%7C%20Courses%20and%20books%20%7C%20Productivity%20%7C%20Mac%20and%20desktop%20apps%20%7C%20Security%20%7C%20Other%0A%23%20relation%20is%20one%20of%3A%20I%20built%20it%20%7C%20I%20use%20it%20%7C%20No%20relation%0A%23%20dates%20look%20like%202026-11-27%0A%0Aname%3A%0Aurl%3A%0Acategory%3A%0Adiscount%3A%0Acode%3A%0Astarts%3A%0Aends%3A%0Adescription%3A%0Aimage%3A%0Alogo%3A%0Arelation%3A%0A)** · **[Star the list](https://github.com/meSingh/awesome-black-friday-dev-deals)** · **[Browse on dev.express](https://dev.express/black-friday/?utm_source=github&utm_medium=referral&utm_campaign=black-friday-2026)**
@@ -47,7 +47,7 @@ If the list helps you, a star and a share help other developers find it. Your li
 <!-- toc:start -->
 - [AI tools](#ai-tools) (7): Coding assistants, model APIs, agents, AI app builders
 - [AI video, image and voice](#ai-video-image-and-voice) (10): Video, image and voice generation, with or without an API
-- [Developer tools](#developer-tools) (17): Editors, Git, APIs, testing, debugging, monitoring
+- [Developer tools](#developer-tools) (18): Editors, Git, APIs, testing, debugging, monitoring
 - [Hosting and cloud](#hosting-and-cloud) (7): VPS, serverless, CDN, domains, deployment
 - [Databases and backend](#databases-and-backend) (2): Databases, auth, queues, search, backend services
 - [Email](#email) (6): Sending, testing and email marketing
@@ -55,10 +55,10 @@ If the list helps you, a star and a share help other developers find it. Your li
 - [Starter kits](#starter-kits) (3): Code templates that get a product shipped sooner
 - [SEO and marketing](#seo-and-marketing) (13): SEO, analytics, social and messaging tools
 - [Courses and books](#courses-and-books) (16): Courses, books and certifications for engineers
-- [Productivity](#productivity) (5): Tasks, notes, meetings, focus
-- [Mac and desktop apps](#mac-and-desktop-apps) (10): Utilities a developer keeps open all day
+- [Productivity](#productivity) (7): Tasks, notes, meetings, focus
+- [Mac and desktop apps](#mac-and-desktop-apps) (13): Utilities a developer keeps open all day
 - [Security](#security) (3): Scanning, secrets, sign-in, privacy
-- [Other](#other) (1): Useful to developers and not covered above
+- [Other](#other) (2): Useful to developers and not covered above
 <!-- toc:end -->
 
 <!-- deals:start -->
@@ -108,6 +108,7 @@ If the list helps you, a star and a share help other developers find it. Your li
 | [Pulsetic](https://pulsetic.com/black-friday/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Uptime monitoring with status pages and incident alerts for websites and APIs | **40% off any paid plan** with code `KEEPITGREEN40` | Until&nbsp;1&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://pulsetic.com/black-friday/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [ScopeForge Studio](https://tolga571.github.io/black-friday-2026.html?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Offline freelance WBS quote estimator, 8 SOW guardrails, PDF export, and 5-sheet Excel workbook | **40% off unlimited ($2.40) or 60% off first 10 ($1.60)** with code `SCOPE40` | 27&nbsp;Nov&nbsp;to&nbsp;1&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://tolga571.github.io/black-friday-2026.html?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [TestDino](https://testdino.com/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Cloud reporting for Playwright tests with failure analysis and flaky test detection | **30% off your first year on annual plans** with code `DINOFRIDAY30` | Until&nbsp;3&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://testdino.com/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
+| [Testomato](https://testomato.com/black-friday/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Uptime, content, SSL and response time monitoring for websites, with alerts to email, Slack, Teams and Discord | **50% off the first year of every plan** with code `BF2026` | 23&nbsp;Nov&nbsp;to&nbsp;30&nbsp;Nov | [Get&nbsp;the&nbsp;deal](https://testomato.com/black-friday/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [Vibe Island](https://vibeisland.app/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Mac notch panel for Claude Code, Codex, Cursor and 27 more AI coding agents. Approve requests, answer questions or jump to the exact terminal tab | **40% off: 1 Mac $11.99, 2 Macs $21.99, 3 Macs $31.99** | 25&nbsp;Nov&nbsp;to&nbsp;1&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://vibeisland.app/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [WPDeveloper](https://wpdeveloper.com/bfcm2026?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | WordPress plugins and templates, including Essential Addons and Templately | **Up to 75% off select plugins** |  | [Get&nbsp;the&nbsp;deal](https://wpdeveloper.com/bfcm2026?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 
@@ -209,7 +210,9 @@ If the list helps you, a star and a share help other developers find it. Your li
 | [Krisp](https://krisp.ai/pricing/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | AI meeting assistant with noise cancellation, transcription and meeting notes | **55% off annual plans** with code `KRISPBF2026` |  | [Get&nbsp;the&nbsp;deal](https://krisp.ai/pricing/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [MeetGeek](https://meetgeek.ai/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | AI meeting recorder that transcribes calls and produces summaries and action items | **30% off Pro and Business for 12 months** with code `BLACKFRIDAY2026` |  | [Get&nbsp;the&nbsp;deal](https://meetgeek.ai/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [Otter.ai](https://otter.ai/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | AI meeting note-taker that records, transcribes and summarises calls | **50% off Pro annual** with code `BANBF26PROA50OFF` |  | [Get&nbsp;the&nbsp;deal](https://otter.ai/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
+| [StepGrab](https://stepgrab.net/black-friday/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | A Mac and Windows app that records your clicks and turns them into a step by step guide with screenshots | **Up to 40% off Pro Lifetime** | 27&nbsp;Nov&nbsp;to&nbsp;30&nbsp;Nov | [Get&nbsp;the&nbsp;deal](https://stepgrab.net/black-friday/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [Things](https://culturedcode.com/things/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Personal task manager for Mac, iPhone and iPad | **30% off** | 23&nbsp;Nov&nbsp;to&nbsp;30&nbsp;Nov | [Get&nbsp;the&nbsp;deal](https://culturedcode.com/things/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
+| [video2docs](https://video2docs.com/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Turns a screen recording of a workflow into a step by step guide or SOP | **30% off credit packs** with code `BLACKFRIDAY30` | 26&nbsp;Nov&nbsp;to&nbsp;1&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://video2docs.com/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 
 ## Mac and desktop apps
 
@@ -223,8 +226,11 @@ If the list helps you, a star and a share help other developers find it. Your li
 | [Proxyman](https://proxyman.com/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | HTTP and HTTPS debugging proxy for macOS, iOS, Windows and Linux | **30% off** with code `BF2026` |  | [Get&nbsp;the&nbsp;deal](https://proxyman.com/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [ScreenSage Pro](https://screensage.pro/bf2026?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | A Mac screen recorder for demos and tutorials, with editing, a teleprompter and 3D motion | **46% off the lifetime license, $79.90 instead of $149** | 26&nbsp;Nov&nbsp;to&nbsp;15&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://screensage.pro/bf2026?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [Sidekick](https://heysidekick.app/black-friday/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Mac app that keeps your Google Tasks on screen, floating over whatever you are working on _(made by the maintainer of this list)_ | **33% off Premium, $6 once instead of $9** with code `BLACKFRIDAY` | Until&nbsp;4&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://heysidekick.app/black-friday/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
+| [Sindre Sorhus apps](https://sindresorhus.com/apps/discounts?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Mac utilities by Sindre Sorhus, including Supercharge, Velja, Dato, Pure Paste and Aiko | **Up to 50% off 16 Mac apps** | 24&nbsp;Nov&nbsp;to&nbsp;30&nbsp;Nov | [Get&nbsp;the&nbsp;deal](https://sindresorhus.com/apps/discounts?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
+| [SmoothCapture](https://www.smoothcapture.app/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | A Mac screen recorder and video editor with device frames, zooms and captions | **50% off Basic, Personal and Lifetime** with code `BLACKFRIDAY26` | 26&nbsp;Nov&nbsp;to&nbsp;3&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://www.smoothcapture.app/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [TablePlus](https://tableplus.com/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Native database GUI client for relational and NoSQL databases | **25% off** with code `BLACK_FRIDAY_2026` |  | [Get&nbsp;the&nbsp;deal](https://tableplus.com/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [Tower](https://www.git-tower.com/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Git client for Mac and Windows | **Up to 50% off Tower Pro and Basic, first year** | Until&nbsp;6&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://www.git-tower.com/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
+| [Transcrybe](https://transcrybe.app/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | A Mac app that shows live translated subtitles for microphone and app audio | **50% off the lifetime license, $14.99 instead of $29.99** | 18&nbsp;Nov&nbsp;to&nbsp;2&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://transcrybe.app/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 
 ## Security
 
@@ -239,6 +245,7 @@ If the list helps you, a star and a share help other developers find it. Your li
 | Product | What it is | Deal | Dates | Link |
 |---|---|---|---|---|
 | [HexOS](https://hexos.com/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | A home server operating system built on TrueNAS for storage, apps and VMs | **Up to $50 off the first year** | 26&nbsp;Nov&nbsp;to&nbsp;1&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://hexos.com/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
+| [Unraid](https://unraid.net/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | An operating system for home servers and NAS boxes that runs storage, Docker apps and VMs | **Up to 25% off Starter and Unleashed licenses** | 25&nbsp;Nov&nbsp;to&nbsp;30&nbsp;Nov | [Get&nbsp;the&nbsp;deal](https://unraid.net/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 <!-- deals:end -->
 
 ---
