@@ -5,7 +5,10 @@ discount: Lifetime Pro for the price of 2 years
 code:
 starts: 2026-11-27
 ends: 2026-12-01
-description: Desktop app for intercepting, inspecting and rewriting HTTP and HTTPS traffic from browsers, apps and servers.
+description: Desktop app for intercepting, inspecting and rewriting HTTP and HTTPS traffic from browsers, apps and servers
 image:
-logo:
-relation: No relation
+logo: https://httptoolkit.com/apple-touch-icon.png
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: meSingh
+source: #66
