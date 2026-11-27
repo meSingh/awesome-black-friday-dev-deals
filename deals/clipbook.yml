@@ -6,6 +6,9 @@ code: BLACK26
 starts: 2026-11-27
 ends: 2026-12-15
 description: A keyboard-first, open source clipboard history manager for Mac
-image:
+image: https://clipbook.app/images/og-image.png
 logo:
-relation: No relation
+relation: I found it and have no relation to it
+added: 2026-11-27
+submitter: azwanzuharimi
+source: #53

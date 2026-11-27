@@ -78,6 +78,19 @@
    "image": "https://www.12hpy.com/og/deals/black-friday.png"
   },
   {
+   "id": "abctab",
+   "name": "AbcTab",
+   "url": "https://solocraft.app/abctab",
+   "category": "desktop",
+   "discount": "50% off Pro Lifetime, $4.99 instead of $9.90",
+   "code": "BF50",
+   "starts": "2026-11-27",
+   "ends": "2026-12-02",
+   "description": "A Mac app switcher with letter jump and lists of windows and terminal tabs",
+   "added": "2026-11-27",
+   "image": "https://solocraft.app/assets/og-abctab-en.png"
+  },
+  {
    "id": "abstract-api",
    "name": "Abstract API",
    "url": "https://www.abstractapi.com/guides/other/black-friday-saas-deals",
@@ -227,6 +240,19 @@
    "description": "Screenshot and screen recording app for Mac with annotation, scrolling capture and cloud sharing",
    "added": "2026-11-27",
    "image": "https://cleanshot.com/img/ogimage.png"
+  },
+  {
+   "id": "clipbook",
+   "name": "ClipBook",
+   "url": "https://clipbook.app/",
+   "category": "desktop",
+   "discount": "50% off, $7.49 instead of $14.99",
+   "code": "BLACK26",
+   "starts": "2026-11-27",
+   "ends": "2026-12-15",
+   "description": "A keyboard-first, open source clipboard history manager for Mac",
+   "added": "2026-11-27",
+   "image": "https://clipbook.app/images/og-image.png"
   },
   {
    "id": "cloudways",
