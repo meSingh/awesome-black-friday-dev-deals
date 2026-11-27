@@ -1,0 +1,103 @@
+name: Publish approved deals
+
+# Merges the pull requests that have passed review, and reviews and lists deals sent through
+# the issue form. One run at a time, because this is the only thing that writes the list.
+#
+# The rule: a deal pull request is merged only when it carries the `approved` label AND the
+# review run (review.yml, job "review") for its newest commit has passed. The label alone is
+# not enough, and neither is a pass on an older commit.
+on:
+  # Every finished review asks for a publish run. Runs that find nothing to do end at once.
+  workflow_run:
+    workflows: ["Review submissions"]
+    types: [completed]
+  issues:
+    types: [opened, edited, reopened, labeled]
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+# One at a time. A run that is waiting can be replaced by a newer one: each run handles
+# everything that is ready, so the newest waiting run covers the ones it replaced.
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    # Issues that are not submissions (a report of a bad deal, say) do not need a run.
+    if: github.event_name != 'issues' || contains(github.event.issue.labels.*.name, 'deal-submission') || startsWith(github.event.issue.title, 'Deal:')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      checks: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - name: Check the rules still pass
+        run: node --test test/*.test.mjs
+      # The rules are applied once more here, against the list as it is now, so two pull
+      # requests for the same product that were reviewed side by side cannot both go in.
+      - name: Find what is ready
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          REVIEW_ACTIONS: ${{ runner.temp }}/review-actions.json
+          REVIEW_STAGE: publish
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/review.mjs decide
+      - name: Merge the approved ones
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          REVIEW_ACTIONS: ${{ runner.temp }}/review-actions.json
+        run: node scripts/review.mjs merge
+      - name: Tidy the merged files and rebuild the README
+        env:
+          REVIEW_ACTIONS: ${{ runner.temp }}/review-actions.json
+        run: |
+          git pull --ff-only origin main
+          node scripts/review.mjs finalize
+          node scripts/build.mjs
+      - name: Commit
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain -- deals data/site.json README.md)" ]; then
+            exit 0
+          fi
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add deals data/site.json README.md
+          git commit -m "Update the list from reviewed submissions"
+          git push
+      - name: Reply to submitters
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          REVIEW_ACTIONS: ${{ runner.temp }}/review-actions.json
+        run: node scripts/review.mjs notify
+      # dev.express gives every deal its own page. When the list has changed, ask the website's
+      # repository to pick the change up now instead of at its next hourly look. This needs the
+      # variable SITE_REPO and the secret SITE_BUILD_TOKEN, a token that can do one thing: start
+      # a workflow there. Without them this step says so and passes, and so does a failed ask.
+      - name: Tell the website
+        # A run started by hand always asks, which is how to try this step. Asking when nothing
+        # changed costs nothing: the website looks, finds the same list and stops.
+        if: steps.commit.outputs.pushed == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ secrets.SITE_BUILD_TOKEN }}
+          SITE_REPO: ${{ vars.SITE_REPO }}
+        run: |
+          if [ -z "$GH_TOKEN" ] || [ -z "$SITE_REPO" ]; then
+            echo "::notice::SITE_REPO or SITE_BUILD_TOKEN is not set, so the website picks this up at its next hourly look."
+            exit 0
+          fi
+          gh api -X POST "repos/$SITE_REPO/actions/workflows/listings.yml/dispatches" -f ref=main \
+            || echo "::warning::The website could not be told. It picks this up at its next hourly look."

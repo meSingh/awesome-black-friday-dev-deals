@@ -1,39 +1,37 @@
 name: Review submissions
 
-# A submission is a pull request that adds one file under deals/, or the "Submit a deal" issue form.
+# Reviews one pull request: the one this run belongs to. Each pull request gets its own run, so
+# many are reviewed at the same time and each shows its own check. The check is green only
+# when the deal has passed; when something needs fixing or a person has to look, it is red and
+# the reply on the pull request says why.
+#
+# This workflow never merges and never writes to the list. Publishing is a separate workflow
+# (publish.yml), which merges only pull requests whose review here has passed.
 on:
-  issues:
-    types: [opened, edited, reopened, labeled]
   # pull_request_target runs this workflow from main, with a token that can write, for pull
   # requests from forks. That is safe here only because nothing from the pull request is ever
   # checked out or executed: the job checks out main, and reads the submitted file as text
   # through the API. Do not add a step that checks out or runs the pull request's code.
   pull_request_target:
     types: [opened, synchronize, reopened, edited, labeled]
-  schedule:
-    - cron: "*/30 * * * *"
-  workflow_dispatch:
 
 # Nothing by default; the job asks for what it needs.
 permissions: {}
 
-# One run at a time, so two runs never write the list at once. Every run waits its turn
-# (`queue: max`); without it GitHub keeps only the newest waiting run and cancels the others,
-# and a pull request whose run was cancelled shows no check at all. A run that finds its
-# pull request already handled by an earlier one has nothing left to do and passes.
+# Runs for different pull requests do not wait for each other. Runs for the same pull request
+# go one after another, each to the end, so the newest one has the last word.
 concurrency:
-  group: review
+  group: review-${{ github.event.pull_request.number }}
   cancel-in-progress: false
   queue: max
 
 jobs:
+  # publish.yml looks for this job's name, "review", on the commit before it merges.
   review:
-    # Issues that are not submissions (a report of a bad deal, say) do not need a run.
-    if: github.event_name != 'issues' || contains(github.event.issue.labels.*.name, 'deal-submission') || startsWith(github.event.issue.title, 'Deal:')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
-      contents: write
+      contents: read
       pull-requests: write
       issues: write
     steps:
@@ -45,56 +43,18 @@ jobs:
           node-version: 22
       - name: Check the rules still pass
         run: node --test test/*.test.mjs
-      - name: Review open submissions
+      - name: Review this pull request
         env:
           GITHUB_TOKEN: ${{ github.token }}
           REVIEW_ACTIONS: ${{ runner.temp }}/review-actions.json
+          REVIEW_STAGE: review
+          REVIEW_PR: ${{ github.event.pull_request.number }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/review.mjs decide
-      - name: Merge the approved ones
+      # Labels and replies. This step fails unless the deal was approved, which is what turns
+      # the pull request's check green or red.
+      - name: Say how it went
         env:
           GITHUB_TOKEN: ${{ github.token }}
           REVIEW_ACTIONS: ${{ runner.temp }}/review-actions.json
-        run: node scripts/review.mjs merge
-      - name: Tidy the merged files and rebuild the README
-        env:
-          REVIEW_ACTIONS: ${{ runner.temp }}/review-actions.json
-        run: |
-          git pull --ff-only origin main
-          node scripts/review.mjs finalize
-          node scripts/build.mjs
-      - name: Commit
-        id: commit
-        run: |
-          if [ -z "$(git status --porcelain -- deals data/site.json README.md)" ]; then
-            exit 0
-          fi
-          echo "pushed=true" >> "$GITHUB_OUTPUT"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add deals data/site.json README.md
-          git commit -m "Update the list from reviewed submissions"
-          git push
-      - name: Reply to submitters
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          REVIEW_ACTIONS: ${{ runner.temp }}/review-actions.json
-        run: node scripts/review.mjs notify
-      # dev.express gives every deal its own page. When the list has changed, ask the website's
-      # repository to pick the change up now instead of at its next hourly look. This needs the
-      # variable SITE_REPO and the secret SITE_BUILD_TOKEN, a token that can do one thing: start
-      # a workflow there. Without them this step says so and passes, and so does a failed ask.
-      - name: Tell the website
-        # A run started by hand always asks, which is how to try this step. Asking when nothing
-        # changed costs nothing: the website looks, finds the same list and stops.
-        if: steps.commit.outputs.pushed == 'true' || github.event_name == 'workflow_dispatch'
-        env:
-          GH_TOKEN: ${{ secrets.SITE_BUILD_TOKEN }}
-          SITE_REPO: ${{ vars.SITE_REPO }}
-        run: |
-          if [ -z "$GH_TOKEN" ] || [ -z "$SITE_REPO" ]; then
-            echo "::notice::SITE_REPO or SITE_BUILD_TOKEN is not set, so the website picks this up at its next hourly look."
-            exit 0
-          fi
-          gh api -X POST "repos/$SITE_REPO/actions/workflows/listings.yml/dispatches" -f ref=main \
-            || echo "::warning::The website could not be told. It picks this up at its next hourly look."
+        run: node scripts/review.mjs verdict

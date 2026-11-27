@@ -9,6 +9,11 @@
 //   node scripts/review.mjs finalize   writes each approved deal's file in the canonical shape
 //                                      (run after pulling main)
 //   node scripts/review.mjs notify     comments on, labels and closes the pull requests and issues
+//   node scripts/review.mjs verdict    the end of a review-only run: labels and replies, and fails
+//                                      unless the deal was approved
+//
+// Two workflows use these. review.yml reviews one pull request per run and never merges.
+// publish.yml merges, one run at a time, only what review.yml has passed (see REVIEW_STAGE below).
 //
 // The steps are separate so that nobody is told "you are listed" before their deal is on main.
 //
@@ -194,14 +199,47 @@ async function checkLive(action, deal, cleared) {
   return action;
 }
 
+// Reviewing and publishing are two stages, run by two workflows.
+//   REVIEW_STAGE=review   one pull request (REVIEW_PR), in that pull request's own run. Many of
+//                         these run at once. It decides, labels and replies, and its run passes
+//                         only when the verdict is "approve". It never merges.
+//   REVIEW_STAGE=publish  one at a time. It merges the pull requests that carry the `approved`
+//                         label and whose newest commit has a passed review run, then the caller
+//                         tidies the files and rebuilds the README. The issue form is handled here.
+// With neither set, every open submission is reviewed and published in one go (used by hand).
+const STAGE = process.env.REVIEW_STAGE || 'all';
+const ONLY_PR = Number(process.env.REVIEW_PR || 0);
+const CHECK_NAME = 'review';   // the job in .github/workflows/review.yml
+
+/** Did the review run for this exact commit pass? The newest run for the commit decides. */
+async function reviewPassed(sha) {
+  const got = await gh(`/repos/${REPO}/commits/${sha}/check-runs?check_name=${CHECK_NAME}&per_page=50`);
+  const runs = (got?.check_runs ?? []).sort((a, b) => String(b.started_at).localeCompare(String(a.started_at)));
+  return runs[0]?.status === 'completed' && runs[0]?.conclusion === 'success';
+}
+
 async function decide() {
   const deals = readDeals();
-  const prs = (await gh(`/repos/${REPO}/pulls?state=open&base=main&per_page=100&sort=created&direction=asc`))
-    .filter((p) => !p.draft)
+  let prs = (await gh(`/repos/${REPO}/pulls?state=open&base=main&per_page=100&sort=created&direction=asc`)).filter((p) => !p.draft);
+  const has = (p, name) => p.labels.some((l) => l.name === name);
+  if (STAGE === 'review') {
+    if (!ONLY_PR) throw new Error('REVIEW_STAGE=review needs REVIEW_PR, the number of the pull request.');
+    prs = prs.filter((p) => p.number === ONLY_PR);
+  } else if (STAGE === 'publish') {
+    // No merging without a passed review: the label says the review approved it, and the check
+    // says that review was of this very commit. A push after the review starts a new review.
+    const ready = [];
+    for (const p of prs.filter((x) => has(x, 'approved'))) {
+      if (await reviewPassed(p.head.sha)) ready.push(p);
+      else console.log(`#${p.number}: labelled approved, but the review of its newest commit has not passed; left alone`);
+    }
+    prs = ready;
+  } else {
     // A held submission waits for the maintainer. Once they have opened the page themselves they add
     // the `maintainer-ok` label, and the next run lists the deal without probing the link again.
-    .filter((p) => !p.labels.some((l) => l.name === 'needs-maintainer') || p.labels.some((l) => l.name === OK_LABEL))
-    .slice(0, MAX_PER_RUN);
+    prs = prs.filter((p) => !has(p, 'needs-maintainer') || has(p, OK_LABEL));
+  }
+  prs = prs.slice(0, MAX_PER_RUN);
 
   const actions = [];
   const now = new Date().toISOString().slice(0, 10);
@@ -229,7 +267,7 @@ async function decide() {
         if (result.verdict === 'approve') {
           const deal = { ...result.deal, id: match[1], added: now, source: `#${pr.number}`, submitter: user };
           if (deals.some((d) => d.id === deal.id)) Object.assign(action, { verdict: 'needs-info', reasons: ['A deal with this file name is already listed. Pick another name for your file.'] });
-          else await checkLive(action, deal, pr.labels.some((l) => l.name === OK_LABEL));
+          else await checkLive(action, deal, STAGE === 'publish' || pr.labels.some((l) => l.name === OK_LABEL));
           if (action.verdict === 'approve') {
             action.deal = { ...deal, categoryName: CATEGORIES.find((c) => c.id === deal.category)?.name ?? 'Other' };
             deals.push(deal);
@@ -243,7 +281,7 @@ async function decide() {
 
   // The form. An approved one has no file yet; `finalize` writes it.
   const held = (i) => i.labels.some((l) => l.name === 'needs-maintainer') && !i.labels.some((l) => l.name === OK_LABEL);
-  const issues = (await gh(`/repos/${REPO}/issues?state=open&per_page=100&sort=created&direction=asc`))
+  const issues = (STAGE === 'review' ? [] : await gh(`/repos/${REPO}/issues?state=open&per_page=100&sort=created&direction=asc`))
     .filter((i) => !i.pull_request)
     .filter((i) => isFormSubmission(i, LABEL))
     .filter((i) => !held(i))
@@ -299,16 +337,18 @@ function finalize() {
   console.log(`Finalised ${merged.length} deal file(s).`);
 }
 
-async function notify() {
+async function notify({ quietApprove = false } = {}) {
   const actions = readActions();
   const labelFor = { approve: 'approved', reject: 'rejected', hold: 'needs-maintainer', 'needs-info': 'needs-info' };
   for (const a of actions) {
     const body = comment(a, { repo: REPO, site: SITE, user: a.user });
     const mark = `<!-- deals-bot:${createHash('sha256').update(a.verdict + body).digest('hex').slice(0, 16)} -->`;
     const base = `/repos/${REPO}/issues/${a.number}`;
+    // An approval is only labelled in the review stage: the "it is live" reply waits for the merge.
+    const say = !(quietApprove && a.verdict === 'approve');
     try {
-      const comments = await gh(`${base}/comments?per_page=100`);
-      if (!comments.some((c) => c.body?.includes(mark))) await gh(`${base}/comments`, { method: 'POST', body: { body: `${body}\n\n${mark}` } });
+      const comments = say ? await gh(`${base}/comments?per_page=100`) : [];
+      if (say && !comments.some((c) => c.body?.includes(mark))) await gh(`${base}/comments`, { method: 'POST', body: { body: `${body}\n\n${mark}` } });
       for (const stale of Object.values(labelFor).filter((l) => l !== labelFor[a.verdict])) {
         await gh(`${base}/labels/${encodeURIComponent(stale)}`, { method: 'DELETE' }).catch(() => {});
       }
@@ -324,12 +364,22 @@ async function notify() {
   console.log(`Notified ${actions.length} submission(s).`);
 }
 
+/** The end of the review stage: label and reply, and fail the run unless the verdict is "approve",
+ *  so the pull request's check is green exactly when the deal has passed. A pull request that is
+ *  not a deal submission has no verdict and passes. */
+async function verdict() {
+  await notify({ quietApprove: true });
+  const failed = readActions().filter((a) => a.verdict !== 'approve');
+  for (const a of failed) console.log(`#${a.number}: ${a.verdict}, so this review does not pass.`);
+  if (failed.length) process.exitCode = 1;
+}
+
 const mode = process.argv[2];
-const steps = { decide, merge, finalize, notify };
+const steps = { decide, merge, finalize, notify, verdict };
 if (steps[mode]) {
   if (mode !== 'finalize' && (!REPO || !TOKEN)) throw new Error('GITHUB_REPOSITORY and GITHUB_TOKEN are required');
   await steps[mode]();
 } else if (import.meta.url === `file://${process.argv[1]}`) {
-  console.error('Usage: node scripts/review.mjs decide|merge|finalize|notify');
+  console.error('Usage: node scripts/review.mjs decide|merge|finalize|notify|verdict');
   process.exit(2);
 }
