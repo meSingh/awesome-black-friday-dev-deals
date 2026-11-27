@@ -1,0 +1,11 @@
+name: Test of the review 2
+url: https://example.com/
+category: Developer tools
+discount: 10% off
+code:
+starts: 2026-11-27
+ends:
+description: A test of the review that will be closed and never listed
+image:
+logo:
+relation: I built it
