@@ -229,6 +229,20 @@
    "logo": "https://boxcompute.ai/apple-touch-icon-180.png"
   },
   {
+   "id": "chemicloud",
+   "name": "ChemiCloud",
+   "url": "https://chemicloud.com/black-friday-web-hosting-deals",
+   "category": "hosting",
+   "discount": "Up to 88% off hosting, from $1.49/mo on 36-month plans",
+   "code": "",
+   "starts": "2026-11-27",
+   "ends": "2026-12-07",
+   "description": "Web hosting, managed WordPress hosting, reseller hosting and cloud VPS",
+   "added": "2026-11-27",
+   "image": "https://chemicloud.com/templates/lagom2/assets/img/page-manager/%20Black-Friday-2026-Sale.png",
+   "logo": "https://chemicloud.com/templates/lagom2/assets/img/favicons/favicon-180.png"
+  },
+  {
    "id": "cleanshot-x",
    "name": "CleanShot X",
    "url": "https://cleanshot.com/pricing",
