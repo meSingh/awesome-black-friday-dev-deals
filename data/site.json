@@ -367,6 +367,19 @@
    "noutm": true
   },
   {
+   "id": "grackerai",
+   "name": "GrackerAI",
+   "url": "https://gracker.ai/blog/black-friday-deals",
+   "category": "marketing",
+   "discount": "20% off",
+   "code": "BF2026",
+   "starts": "2026-11-27",
+   "ends": "2026-12-15",
+   "description": "Tracks how a B2B software brand shows up in answers from AI search engines",
+   "added": "2026-11-27",
+   "image": "https://gracker.ai/blog/images/black-friday-deals.jpg"
+  },
+  {
    "id": "guard-by-offseq",
    "name": "Guard by OffSeq",
    "url": "https://guard.report/",
@@ -599,6 +612,20 @@
    "ends": "2026-11-30",
    "description": "Domain registrar",
    "added": "2026-11-26"
+  },
+  {
+   "id": "nuelink",
+   "name": "Nuelink",
+   "url": "https://nuelink.com/pricing",
+   "category": "marketing",
+   "discount": "6 months free on yearly plans, or 25% off 3 months",
+   "code": "BFCM26",
+   "starts": "2026-11-27",
+   "ends": "2026-11-30",
+   "description": "Schedules and automates posts across social media accounts, with an API",
+   "added": "2026-11-27",
+   "image": "https://nuelink.com/img/nuelink-social-share-image.png",
+   "logo": "https://nuelink.com/img/favicon/apple-icon-180x180.png"
   },
   {
    "id": "numberotp",
