@@ -6,6 +6,9 @@ code: BLACKFRIDAY
 starts: 2026-11-22
 ends: 2026-12-01
 description: Uptime monitoring and status pages
-image:
+image: https://www.12hpy.com/og/deals/black-friday.png
 logo:
-relation: I built it
+relation: I built it or work on it
+added: 2026-11-27
+submitter: elfbrg
+source: #31

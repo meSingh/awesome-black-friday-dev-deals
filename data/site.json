@@ -57,6 +57,19 @@
  ],
  "deals": [
   {
+   "id": "12happy",
+   "name": "12happy",
+   "url": "https://www.12hpy.com/deals/black-friday",
+   "category": "dev",
+   "discount": "3 months of Pro free, no card, first 100 accounts",
+   "code": "BLACKFRIDAY",
+   "starts": "2026-11-22",
+   "ends": "2026-12-01",
+   "description": "Uptime monitoring and status pages",
+   "added": "2026-11-27",
+   "image": "https://www.12hpy.com/og/deals/black-friday.png"
+  },
+  {
    "id": "abstract-api",
    "name": "Abstract API",
    "url": "https://www.abstractapi.com/guides/other/black-friday-saas-deals",
