@@ -6,6 +6,9 @@ code:
 starts: 2026-11-27
 ends: 2026-12-02
 description: AI visibility tool that shows whether ChatGPT, Claude, Gemini and Google AI recommend your brand, and tracks AI crawler and referral traffic
-image:
+image: https://www.usenotra.com/og/pricing.png
 logo: https://www.usenotra.com/apple-icon.png
-relation: I built it
+relation: I built it or work on it
+added: 2026-11-27
+submitter: mezotv
+source: #72
