@@ -155,6 +155,20 @@
    "logo": "https://cdn.prod.website-files.com/686a2cdc3f0fe49a4670202d/6878fb3352f762f2dc8e21a9_256.png"
   },
   {
+   "id": "apxy",
+   "name": "APXY",
+   "url": "https://apxy.dev/",
+   "category": "dev",
+   "discount": "30% off APXY Pro, $99 to $69.30 one-time",
+   "code": "APXY2026",
+   "starts": "2026-11-27",
+   "ends": "",
+   "description": "Local HTTP/HTTPS debugging proxy with a CLI and MCP server so coding agents can check the real requests their code sends. macOS and Linux",
+   "added": "2026-11-28",
+   "image": "https://apxy.dev/og-image.png",
+   "logo": "https://apxy.dev/apple-touch-icon.png"
+  },
+  {
    "id": "ardan-labs",
    "name": "Ardan Labs",
    "url": "https://www.ardanlabs.com/",

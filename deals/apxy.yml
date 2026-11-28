@@ -4,8 +4,11 @@ category: Developer tools
 discount: 30% off APXY Pro, $99 to $69.30 one-time
 code: APXY2026
 starts: 2026-11-27
-ends: Limited time
+ends:
 description: Local HTTP/HTTPS debugging proxy with a CLI and MCP server so coding agents can check the real requests their code sends. macOS and Linux
-image:
-logo:
-relation: I built it
+image: https://apxy.dev/og-image.png
+logo: https://apxy.dev/apple-touch-icon.png
+relation: I built it or work on it
+added: 2026-11-28
+submitter: tuanquanghpvn
+source: #32
