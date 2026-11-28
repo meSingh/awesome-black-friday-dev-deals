@@ -6,6 +6,9 @@ code:
 starts: 2026-11-28
 ends:
 description: A Mac system monitor that puts CPU, GPU, memory, disk, network, sensor and battery stats in the menu bar
-image:
+image: https://bjango.com/images/site-icons/bjango-cover.png
 logo:
-relation: No relation
+relation: I found it and have no relation to it
+added: 2026-11-28
+submitter: meSingh
+source: #87

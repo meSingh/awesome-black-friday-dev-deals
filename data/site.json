@@ -790,6 +790,19 @@
    "added": "2026-11-26"
   },
   {
+   "id": "istat-menus",
+   "name": "iStat Menus",
+   "url": "https://bjango.com/mac/istatmenus/",
+   "category": "desktop",
+   "discount": "50% off iStat Menus and Pinwheel",
+   "code": "",
+   "starts": "2026-11-28",
+   "ends": "",
+   "description": "A Mac system monitor that puts CPU, GPU, memory, disk, network, sensor and battery stats in the menu bar",
+   "added": "2026-11-28",
+   "image": "https://bjango.com/images/site-icons/bjango-cover.png"
+  },
+  {
    "id": "juxtacode",
    "name": "JuxtaCode",
    "url": "https://juxtacode.app/",
@@ -1372,6 +1385,19 @@
    "description": "Offline freelance WBS quote estimator, 8 SOW guardrails, PDF export, and 5-sheet Excel workbook",
    "added": "2026-11-27",
    "image": "https://tolga571.github.io/assets/scopeforge.png"
+  },
+  {
+   "id": "screen-studio",
+   "name": "Screen Studio",
+   "url": "https://screen.studio/pricing",
+   "category": "desktop",
+   "discount": "40% off the first year",
+   "code": "BLACKFRIDAY26",
+   "starts": "2026-11-28",
+   "ends": "",
+   "description": "A screen recorder for Mac that adds automatic zooms, cursor motion and framing to product demos and tutorials",
+   "added": "2026-11-28",
+   "logo": "https://screen.studio/landing/brand/apple-touch-icon.png"
   },
   {
    "id": "screenpipe",
