@@ -1453,6 +1453,20 @@
    "image": "https://tolga571.github.io/assets/scopeforge.png"
   },
   {
+   "id": "screen-charm",
+   "name": "Screen Charm",
+   "url": "https://screencharm.com/",
+   "category": "desktop",
+   "discount": "39% off the $79 lifetime deal (~$49)",
+   "code": "",
+   "starts": "2026-11-27",
+   "ends": "2026-12-01",
+   "description": "A Mac screen recorder with auto-zoom on clicks, a smooth cursor, auto captions, vertical exports and 4K export",
+   "added": "2026-11-28",
+   "image": "https://screencharm.com/images/og-image.png",
+   "logo": "https://screencharm.com/icons/logo.png"
+  },
+  {
    "id": "screen-studio",
    "name": "Screen Studio",
    "url": "https://screen.studio/pricing",

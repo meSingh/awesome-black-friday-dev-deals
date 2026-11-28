@@ -1,11 +1,14 @@
 name: Screen Charm
-url: https://screencharm.com
+url: https://screencharm.com/
 category: Mac and desktop apps
 discount: 39% off the $79 lifetime deal (~$49)
 code:
 starts: 2026-11-27
 ends: 2026-12-01
 description: A Mac screen recorder with auto-zoom on clicks, a smooth cursor, auto captions, vertical exports and 4K export
-image:
-logo:
-relation: I built it
+image: https://screencharm.com/images/og-image.png
+logo: https://screencharm.com/icons/logo.png
+relation: I built it or work on it
+added: 2026-11-28
+submitter: snazarofff
+source: #92
