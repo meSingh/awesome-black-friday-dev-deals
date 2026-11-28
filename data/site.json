@@ -1236,6 +1236,19 @@
    "logo": "https://pake.run/img/apple-touch-icon.png?v=05cf7dbb11d7"
   },
   {
+   "id": "parallels-desktop",
+   "name": "Parallels Desktop",
+   "url": "https://www.parallels.com/products/desktop/buy/",
+   "category": "desktop",
+   "discount": "Up to 50% off Parallels Desktop licenses",
+   "code": "",
+   "starts": "2026-11-28",
+   "ends": "",
+   "description": "Software that runs Windows, Linux and other operating systems in virtual machines on a Mac",
+   "added": "2026-11-28",
+   "logo": "https://www.parallels.com/static/pl/typo3conf/ext/prls_theme/Resources/Public/theme/res/img/favicon/apple-touch-icon.png"
+  },
+  {
    "id": "perfmatters",
    "name": "Perfmatters",
    "url": "https://perfmatters.io/",
