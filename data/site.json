@@ -410,6 +410,19 @@
    "added": "2026-11-26"
   },
   {
+   "id": "cruip",
+   "name": "Cruip",
+   "url": "https://cruip.com/unlimited-access/",
+   "category": "design",
+   "discount": "50% off the Classic and Modern template bundles",
+   "code": "",
+   "starts": "2026-11-28",
+   "ends": "2026-11-30",
+   "description": "Tailwind CSS templates for websites, landing pages and dashboards in HTML, React, Next.js and Vue, sold one by one or as bundles",
+   "added": "2026-11-28",
+   "logo": "https://cruip.com/favicon/apple-touch-icon.png"
+  },
+  {
    "id": "database-mart",
    "name": "Database Mart",
    "url": "https://www.databasemart.com/promo/black-friday-sale",
@@ -1583,6 +1596,18 @@
    "added": "2026-11-28",
    "image": "https://tablepro.app/og/campaign/black-friday.png?v=8a8a1407",
    "logo": "https://tablepro.app/apple-touch-icon.png"
+  },
+  {
+   "id": "tailgrids",
+   "name": "TailGrids",
+   "url": "https://tailgrids.com/pricing",
+   "category": "design",
+   "discount": "50% off All-Access plans",
+   "code": "BLFCM2026",
+   "starts": "2026-11-28",
+   "ends": "",
+   "description": "Library of Tailwind CSS and React UI components, blocks and templates, with a free open source tier and paid lifetime licences",
+   "added": "2026-11-28"
   },
   {
    "id": "tailkits-ui",
