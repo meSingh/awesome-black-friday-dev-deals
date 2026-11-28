@@ -239,7 +239,7 @@ export const DEAL_TEMPLATE = `# Add your Black Friday deal. It is free.
 # discount is 60 characters or fewer, for example: 40% off annual plans
 # category is one of: ${CATEGORIES.map((c) => c.name).join(' | ')}
 # relation is one of: I built it | I use it | No relation
-# dates look like 2026-11-27
+# dates look like 2026-11-27. Leave ends empty if the deal has no end date.
 
 name:
 url:
@@ -378,10 +378,18 @@ export function review(fields, existing = [], now = today()) {
   }
 
   const startOk = isIsoDate(f.starts);
-  const endOk = isIsoDate(f.ends);
+  // The end date is optional: plenty of sales only say "limited time". Left empty, or filled with
+  // words and no digits, the deal has no end date and comes off the list when the sale window
+  // closes (see status below). Something with digits that is not a real date is asked about,
+  // because that is a typo and not a deal without an end.
+  const noEnd = !/\d/.test(f.ends);
+  const endOk = noEnd || isIsoDate(f.ends);
   if (!startOk) reasons.push('Give the start date as YYYY-MM-DD, for example 2026-11-27.');
-  if (!endOk) reasons.push('Give the end date as YYYY-MM-DD, for example 2026-12-04.');
-  if (startOk && endOk) {
+  if (!endOk) reasons.push('The end date does not read as a date. Write it as YYYY-MM-DD, for example 2026-12-04, or leave it empty if the deal has no end date.');
+  if (startOk && noEnd && f.starts > WINDOW_END) {
+    return { verdict: 'reject', reasons: [`This list is for Black Friday ${YEAR} deals, so a deal has to be running at some point in the sale weeks around it. These dates fall outside that.`] };
+  }
+  if (startOk && endOk && !noEnd) {
     if (f.ends < f.starts) reasons.push('The end date is before the start date.');
     else if (f.ends < now) return { verdict: 'reject', reasons: [`This deal ended on ${f.ends}. Only live or upcoming deals are listed.`] };
     else if (f.starts > WINDOW_END || f.ends < WINDOW_START) {
@@ -426,7 +434,7 @@ export function review(fields, existing = [], now = today()) {
       discount: f.discount,
       code: f.code,
       starts: f.starts,
-      ends: f.ends,
+      ends: noEnd ? '' : f.ends,
       description: f.description.replace(/[.\s]+$/, ''),
       relation: f.relation,
       image,

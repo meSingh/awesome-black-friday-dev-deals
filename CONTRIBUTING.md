@@ -36,7 +36,7 @@ A deal is listed when all of these hold:
 
 - **It is a real Black Friday 2026 deal** on a product a developer would use, stated on the page you link to.
 - **The link is the seller's own https page.** Link shorteners and affiliate networks are refused. Referral and tracking parameters (`ref`, `via`, `aff`, `utm_*` and similar) are removed from the stored link.
-- **The dates are real.** Start and end in `YYYY-MM-DD`. The deal has not ended, it is running at some point in the Black Friday sale weeks, and it lasts no longer than 60 days. Deals that started early or run on into December are welcome.
+- **The dates are real.** Start and end in `YYYY-MM-DD`. The end date can be left empty if the deal has none. The deal has not ended, it is running at some point in the Black Friday sale weeks, and it lasts no longer than 60 days. Deals that started early or run on into December are welcome.
 - **The discount is specific.** "40% off annual plans" or "$50 off", in 60 characters or fewer. A percentage must be between 1 and 100.
 - **The description is plain.** One sentence on what the product is, 160 characters or fewer, no sales copy.
 - **A logo helps, and is optional.** A link to your product's logo or app icon: square, at least 128 pixels wide, png, jpg or webp. If you leave it empty, the icon your site declares is used.

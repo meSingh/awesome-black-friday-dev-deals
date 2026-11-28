@@ -210,3 +210,21 @@ test('each route gets the reply that fits it', () => {
   assert.ok(comment({ kind: 'pr', verdict: 'needs-info', reasons: ['x'] }, c).includes('Files changed'));
   assert.ok(comment({ kind: 'issue', verdict: 'needs-info', reasons: ['x'] }, c).includes('edit this issue'));
 });
+
+test('a deal with no end date is accepted and listed without one', () => {
+  for (const end of ['', 'Limited time', '_No response_']) {
+    const r = run({ 'End date': end });
+    assert.equal(r.verdict, 'approve', `end date ${JSON.stringify(end)}: ${r.reasons.join(' | ')}`);
+    assert.equal(r.deal.ends, '');
+  }
+});
+
+test('an end date that looks like a date but is not one is asked about', () => {
+  const r = run({ 'End date': '2026-12-4' });
+  assert.equal(r.verdict, 'needs-info');
+  assert.ok(r.reasons.some((x) => /end date/i.test(x)));
+});
+
+test('a deal with no end date that starts after the sale window is turned down', () => {
+  assert.equal(run({ 'Start date': '2027-01-15', 'End date': '' }).verdict, 'reject');
+});

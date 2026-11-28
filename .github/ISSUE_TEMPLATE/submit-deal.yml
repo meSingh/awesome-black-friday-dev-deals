@@ -72,10 +72,10 @@ body:
     id: ends
     attributes:
       label: End date
-      description: YYYY-MM-DD. Deals that run on into December are welcome.
+      description: YYYY-MM-DD. Leave it empty if the deal has no end date. Deals that run on into December are welcome.
       placeholder: "2026-12-04"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: description
     attributes:
