@@ -6,6 +6,9 @@ code: BLFCM2026
 starts: 2026-11-16
 ends: 2026-12-01
 description: AI app builder that turns a text prompt into a React and Tailwind CSS app, with hosting and GitHub export
-image:
+image: https://cdn.sanity.io/images/e14cuovy/production/8d2cb53fc03957cc247ab481f7c035e196ed939e-2400x1260.png
 logo:
-relation: No relation
+relation: I found it and have no relation to it
+added: 2026-11-28
+submitter: meSingh
+source: #98

@@ -582,6 +582,19 @@
    "logo": "https://dockgroups.com/app-icon.png"
   },
   {
+   "id": "docugenerate",
+   "name": "DocuGenerate",
+   "url": "https://www.docugenerate.com/pricing/",
+   "category": "dev",
+   "discount": "50% off paid plans for the first 3 months",
+   "code": "",
+   "starts": "2026-11-01",
+   "ends": "2026-12-01",
+   "description": "Web app and API that fills Word and PDF templates with your data to generate documents",
+   "added": "2026-11-28",
+   "image": "https://www.docugenerate.com/assets/images/pricing/pricing-v6.png"
+  },
+  {
    "id": "educative",
    "name": "Educative",
    "url": "https://www.educative.io/black-friday-sale",
@@ -1065,6 +1078,19 @@
    "ends": "",
    "description": "AI meeting recorder that transcribes calls and produces summaries and action items",
    "added": "2026-11-26"
+  },
+  {
+   "id": "meku",
+   "name": "Meku",
+   "url": "https://meku.dev/blog/best-ai-black-friday-deals",
+   "category": "ai",
+   "discount": "30% off all paid plans",
+   "code": "BLFCM2026",
+   "starts": "2026-11-16",
+   "ends": "2026-12-01",
+   "description": "AI app builder that turns a text prompt into a React and Tailwind CSS app, with hosting and GitHub export",
+   "added": "2026-11-28",
+   "image": "https://cdn.sanity.io/images/e14cuovy/production/8d2cb53fc03957cc247ab481f7c035e196ed939e-2400x1260.png"
   },
   {
    "id": "mole",
