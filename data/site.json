@@ -582,6 +582,19 @@
    "logo": "https://dockgroups.com/app-icon.png"
   },
   {
+   "id": "educative",
+   "name": "Educative",
+   "url": "https://www.educative.io/black-friday-sale",
+   "category": "learn",
+   "discount": "69% off annual plans",
+   "code": "",
+   "starts": "2026-11-28",
+   "ends": "",
+   "description": "Interactive text-based courses, skill paths and cloud labs for software engineers, with a focus on system design and interview prep",
+   "added": "2026-11-28",
+   "image": "https://www.educative.io/v2api/editorpage/4732114098323456/image/4532161023442944"
+  },
+  {
    "id": "elevenlabs",
    "name": "ElevenLabs",
    "url": "https://elevenlabs.io/pricing",
@@ -1236,6 +1249,20 @@
    "image": "https://perfmatters.io/wp-content/uploads/2022/07/perfmatters-social-v3.png"
   },
   {
+   "id": "picmal",
+   "name": "Picmal",
+   "url": "https://picmal.app/",
+   "category": "desktop",
+   "discount": "50% off the one-time license",
+   "code": "",
+   "starts": "2026-11-28",
+   "ends": "2026-11-30",
+   "description": "A Mac app that converts, compresses and edits images, video, audio and PDFs locally, without uploading files anywhere",
+   "added": "2026-11-28",
+   "image": "https://picmal.app/_astro/og.DVYHrddZ.png",
+   "logo": "https://picmal.app/apple-touch-icon.png"
+  },
+  {
    "id": "pictory",
    "name": "Pictory",
    "url": "https://pictory.ai/pricing",
@@ -1667,6 +1694,20 @@
    "ends": "2026-12-15",
    "description": "Enterprise SSO, SCIM and directory sync API for B2B SaaS apps",
    "added": "2026-11-26"
+  },
+  {
+   "id": "standard-notes",
+   "name": "Standard Notes",
+   "url": "https://standardnotes.com/plans",
+   "category": "productivity",
+   "discount": "50% off annual plans",
+   "code": "",
+   "starts": "2026-11-28",
+   "ends": "",
+   "description": "An end-to-end encrypted notes app that syncs across web, desktop and mobile, with markdown, checklists and file storage",
+   "added": "2026-11-28",
+   "image": "https://assets.standardnotes.com/media/SN-Icon-500.png",
+   "logo": "https://standardnotes.com/apple-touch-icon.png"
   },
   {
    "id": "startup-buffer",

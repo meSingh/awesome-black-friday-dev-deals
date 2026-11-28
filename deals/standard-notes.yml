@@ -6,6 +6,9 @@ code:
 starts: 2026-11-28
 ends:
 description: An end-to-end encrypted notes app that syncs across web, desktop and mobile, with markdown, checklists and file storage
-image:
-logo:
-relation: No relation
+image: https://assets.standardnotes.com/media/SN-Icon-500.png
+logo: https://standardnotes.com/apple-touch-icon.png
+relation: I found it and have no relation to it
+added: 2026-11-28
+submitter: meSingh
+source: #94
