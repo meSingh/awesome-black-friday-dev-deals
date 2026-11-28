@@ -6,6 +6,9 @@ code: BFCM26
 starts: 2026-11-26
 ends: 2026-12-02
 description: Email platform for sending, testing and marketing email, with an API, SMTP and a sandbox for test mail
-image:
-logo:
-relation: No relation
+image: https://mailtrap.io/app/uploads/2026/11/Social-Media-Banner@2x.png
+logo: https://mailtrap.io/app/themes/mailtrap/images/favicon/apple-touch-icon.png?v=3
+relation: I found it and have no relation to it
+added: 2026-11-28
+submitter: meSingh
+source: #79

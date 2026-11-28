@@ -911,6 +911,20 @@
    "image": "https://mailscope.app/og.png"
   },
   {
+   "id": "mailtrap",
+   "name": "Mailtrap",
+   "url": "https://mailtrap.io/blog/black-friday-software-deals-2026/",
+   "category": "email",
+   "discount": "Extra 15% off annual plans",
+   "code": "BFCM26",
+   "starts": "2026-11-26",
+   "ends": "2026-12-02",
+   "description": "Email platform for sending, testing and marketing email, with an API, SMTP and a sandbox for test mail",
+   "added": "2026-11-28",
+   "image": "https://mailtrap.io/app/uploads/2026/11/Social-Media-Banner@2x.png",
+   "logo": "https://mailtrap.io/app/themes/mailtrap/images/favicon/apple-touch-icon.png?v=3"
+  },
+  {
    "id": "mastering-laravel-testing",
    "name": "Mastering Laravel Testing",
    "url": "https://masteringlaravel.io/courses/testing",
@@ -1529,6 +1543,20 @@
    "ends": "",
    "description": "Native database GUI client for relational and NoSQL databases",
    "added": "2026-11-26"
+  },
+  {
+   "id": "tablepro",
+   "name": "TablePro",
+   "url": "https://tablepro.app/black-friday",
+   "category": "desktop",
+   "discount": "40% off Pro one-time and Pro yearly",
+   "code": "BLACKFRIDAY2026",
+   "starts": "2026-11-28",
+   "ends": "2026-12-01",
+   "description": "Native open source database client for macOS and Linux, with a paid Pro tier for extra features",
+   "added": "2026-11-28",
+   "image": "https://tablepro.app/og/campaign/black-friday.png?v=8a8a1407",
+   "logo": "https://tablepro.app/apple-touch-icon.png"
   },
   {
    "id": "tailkits-ui",
