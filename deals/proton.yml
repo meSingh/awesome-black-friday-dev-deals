@@ -2,10 +2,13 @@ name: Proton
 url: https://proton.me/black-friday
 category: Security
 discount: 50% off Mail Plus and Proton Unlimited for a year
-code: 
+code:
 starts: 2026-11-28
-ends: 
+ends:
 description: Encrypted email, calendar, cloud storage, password manager and VPN from a company based in Switzerland
-image:
-logo:
-relation: No relation
+image: https://pmecdn.protonweb.com/image-transformation/?s=a&image=BF_OG_745b5ae97a.png
+logo: https://proton.me/favicons/apple-touch-icon.png
+relation: I found it and have no relation to it
+added: 2026-11-28
+submitter: meSingh
+source: #89

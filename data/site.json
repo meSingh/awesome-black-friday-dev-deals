@@ -231,6 +231,19 @@
    "logo": "https://trybeaming.app/beaming-icon.png"
   },
   {
+   "id": "beehiiv",
+   "name": "beehiiv",
+   "url": "https://www.beehiiv.com/black-friday",
+   "category": "email",
+   "discount": "20% off any annual plan",
+   "code": "BFCM2026",
+   "starts": "2026-11-28",
+   "ends": "",
+   "description": "A newsletter platform for writing, sending and growing a newsletter, with a website, paid subscriptions and an ad network",
+   "added": "2026-11-28",
+   "image": "https://www.beehiiv.com/black-friday-2026/og.png"
+  },
+  {
    "id": "bettertouchtool",
    "name": "BetterTouchTool",
    "url": "https://folivora.ai/",
@@ -1296,6 +1309,20 @@
    "description": "Tool for designing carousels and social posts, then scheduling and publishing them to social accounts",
    "added": "2026-11-27",
    "image": "https://postnitro.ai/images/og/postnitro-homepage-facebook.png"
+  },
+  {
+   "id": "proton",
+   "name": "Proton",
+   "url": "https://proton.me/black-friday",
+   "category": "security",
+   "discount": "50% off Mail Plus and Proton Unlimited for a year",
+   "code": "",
+   "starts": "2026-11-28",
+   "ends": "",
+   "description": "Encrypted email, calendar, cloud storage, password manager and VPN from a company based in Switzerland",
+   "added": "2026-11-28",
+   "image": "https://pmecdn.protonweb.com/image-transformation/?s=a&image=BF_OG_745b5ae97a.png",
+   "logo": "https://proton.me/favicons/apple-touch-icon.png"
   },
   {
    "id": "prowritingaid",
