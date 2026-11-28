@@ -2,7 +2,7 @@
  "year": 2026,
  "blackFriday": "2026-11-27",
  "cyberMonday": "2026-11-30",
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "submit": "https://github.com/meSingh/awesome-black-friday-dev-deals/issues/new?template=submit-deal.yml",
  "submitPr": "https://github.com/meSingh/awesome-black-friday-dev-deals/new/main/deals?filename=your-product.yml&value=%23%20Add%20your%20Black%20Friday%20deal.%20It%20is%20free.%0A%23%0A%23%201.%20Rename%20this%20file%20to%20your%20product%2C%20for%20example%20acme-cli.yml%0A%23%20%20%20%20%28lowercase%20letters%2C%20digits%20and%20dashes%29.%0A%23%202.%20Fill%20in%20the%20lines%20below.%20Leave%20code%2C%20image%20and%20logo%20empty%20if%20you%20have%20none.%0A%23%203.%20Click%20%22Commit%20changes%22%2C%20then%20%22Create%20pull%20request%22.%20That%20is%20all.%0A%23%0A%23%20discount%20is%2060%20characters%20or%20fewer%2C%20for%20example%3A%2040%25%20off%20annual%20plans%0A%23%20category%20is%20one%20of%3A%20AI%20tools%20%7C%20AI%20video%2C%20image%20and%20voice%20%7C%20Developer%20tools%20%7C%20Hosting%20and%20cloud%20%7C%20Databases%20and%20backend%20%7C%20Email%20%7C%20Design%20and%20UI%20%7C%20Starter%20kits%20%7C%20SEO%20and%20marketing%20%7C%20Courses%20and%20books%20%7C%20Productivity%20%7C%20Mac%20and%20desktop%20apps%20%7C%20Security%20%7C%20Other%0A%23%20relation%20is%20one%20of%3A%20I%20built%20it%20%7C%20I%20use%20it%20%7C%20No%20relation%0A%23%20dates%20look%20like%202026-11-27%0A%0Aname%3A%0Aurl%3A%0Acategory%3A%0Adiscount%3A%0Acode%3A%0Astarts%3A%0Aends%3A%0Adescription%3A%0Aimage%3A%0Alogo%3A%0Arelation%3A%0A",
  "categories": [
@@ -1037,6 +1037,19 @@
    "ends": "",
    "description": "Monitors leak datasets and forums for credentials tied to your domains and sends alerts",
    "added": "2026-11-26"
+  },
+  {
+   "id": "opencomputer",
+   "name": "OpenComputer",
+   "url": "https://opencomputer.dev/blog/black-friday-2026/",
+   "category": "dev",
+   "discount": "50% off Pro and Max plus double minutes",
+   "code": "",
+   "starts": "2026-11-27",
+   "ends": "2026-11-30",
+   "description": "Open-source cloud coding agent: mention @Computer in Slack and it runs Claude Code or Codex on a cloud machine and opens a pull request",
+   "added": "2026-11-28",
+   "image": "https://opencomputer.dev/campaigns/factory/og-v9.png"
   },
   {
    "id": "otter-ai",
