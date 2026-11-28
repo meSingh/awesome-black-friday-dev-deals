@@ -7,5 +7,8 @@ starts: 2026-11-28
 ends: 2026-12-01
 description: A WordPress plugin for adding and managing PHP, CSS and JavaScript snippets on a site without editing theme files
 image:
-logo:
-relation: No relation
+logo: https://codesnippets.pro/wp-content/uploads/2024/03/cropped-code-snippets-pro-icon-social-round-512px-180x180.webp
+relation: I found it and have no relation to it
+added: 2026-11-28
+submitter: meSingh
+source: #85

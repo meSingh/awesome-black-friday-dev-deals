@@ -335,6 +335,19 @@
    "added": "2026-11-27"
   },
   {
+   "id": "code-snippets",
+   "name": "Code Snippets Pro",
+   "url": "https://codesnippets.pro/pricing/",
+   "category": "dev",
+   "discount": "40% off Pro yearly and lifetime plans",
+   "code": "",
+   "starts": "2026-11-28",
+   "ends": "2026-12-01",
+   "description": "A WordPress plugin for adding and managing PHP, CSS and JavaScript snippets on a site without editing theme files",
+   "added": "2026-11-28",
+   "logo": "https://codesnippets.pro/wp-content/uploads/2024/03/cropped-code-snippets-pro-icon-social-round-512px-180x180.webp"
+  },
+  {
    "id": "codify",
    "name": "Codify",
    "url": "https://codifycli.com/pricing",
