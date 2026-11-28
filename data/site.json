@@ -435,6 +435,19 @@
    "added": "2026-11-26"
   },
   {
+   "id": "dataquest",
+   "name": "Dataquest",
+   "url": "https://www.dataquest.io/pricing/",
+   "category": "learn",
+   "discount": "57% off the Lifetime Premium plan",
+   "code": "",
+   "starts": "2026-11-28",
+   "ends": "",
+   "description": "Online courses in Python, SQL and data science where you learn by writing code in the browser",
+   "added": "2026-11-28",
+   "logo": "https://www.dataquest.io/apple-touch-icon.png"
+  },
+  {
    "id": "daylanes",
    "name": "Daylanes",
    "url": "https://daylanes.app/",
