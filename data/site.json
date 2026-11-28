@@ -1271,6 +1271,20 @@
    "added": "2026-11-26"
   },
   {
+   "id": "polypane",
+   "name": "Polypane",
+   "url": "https://polypane.app/black-friday/",
+   "category": "dev",
+   "discount": "Up to 25% off yearly Individual and Business plans",
+   "code": "",
+   "starts": "2026-11-28",
+   "ends": "2026-12-01",
+   "description": "A browser for web developers that shows a site at many screen sizes side by side, with accessibility and layout debugging tools built in",
+   "added": "2026-11-28",
+   "image": "https://polypane.app/og-custom/black-friday-live.png",
+   "logo": "https://polypane.app/icons/icon-512x512.png?v=5df5528946772487a6ab462ff2125f26"
+  },
+  {
    "id": "postnitro",
    "name": "PostNitro",
    "url": "https://postnitro.ai/plans",
