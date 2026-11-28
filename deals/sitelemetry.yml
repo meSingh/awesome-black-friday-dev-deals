@@ -2,10 +2,13 @@ name: Sitelemetry
 url: https://sitelemetry.com/pricing
 category: SEO and marketing
 discount: 50% off new paid plans and audit credit packs
-code: 
+code:
 starts: 2026-11-28
 ends: 2026-11-30
 description: Website audit tool covering security, technical SEO, AI visibility, accessibility and performance
-image:
+image: https://sitelemetry.com/og.png
 logo:
-relation: No relation
+relation: I found it and have no relation to it
+added: 2026-11-28
+submitter: meSingh
+source: #100
