@@ -1,0 +1,11 @@
+name: MakerKit
+url: https://makerkit.dev/pricing
+category: Starter kits
+discount: 35% off the Supabase, Drizzle and Prisma kits
+code: BLACKFRIDAY2026
+starts: 2026-11-28
+ends:
+description: A SaaS starter kit for Next.js with auth, billing and teams, sold as a one-time license for Supabase, Drizzle or Prisma stacks
+image:
+logo:
+relation: No relation
