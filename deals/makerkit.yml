@@ -6,6 +6,9 @@ code: BLACKFRIDAY2026
 starts: 2026-11-28
 ends:
 description: A SaaS starter kit for Next.js with auth, billing and teams, sold as a one-time license for Supabase, Drizzle or Prisma stacks
-image:
-logo:
-relation: No relation
+image: https://makerkit.dev/assets/images/makerkit.webp
+logo: https://makerkit.dev/images/favicon/apple-touch-icon.png
+relation: I found it and have no relation to it
+added: 2026-11-28
+submitter: meSingh
+source: #84

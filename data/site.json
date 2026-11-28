@@ -977,6 +977,20 @@
    "logo": "https://mailtrap.io/app/themes/mailtrap/images/favicon/apple-touch-icon.png?v=3"
   },
   {
+   "id": "makerkit",
+   "name": "MakerKit",
+   "url": "https://makerkit.dev/pricing",
+   "category": "starter",
+   "discount": "35% off the Supabase, Drizzle and Prisma kits",
+   "code": "BLACKFRIDAY2026",
+   "starts": "2026-11-28",
+   "ends": "",
+   "description": "A SaaS starter kit for Next.js with auth, billing and teams, sold as a one-time license for Supabase, Drizzle or Prisma stacks",
+   "added": "2026-11-28",
+   "image": "https://makerkit.dev/assets/images/makerkit.webp",
+   "logo": "https://makerkit.dev/images/favicon/apple-touch-icon.png"
+  },
+  {
    "id": "mastering-laravel-testing",
    "name": "Mastering Laravel Testing",
    "url": "https://masteringlaravel.io/courses/testing",
@@ -1103,6 +1117,20 @@
    "ends": "",
    "description": "Monitors leak datasets and forums for credentials tied to your domains and sends alerts",
    "added": "2026-11-26"
+  },
+  {
+   "id": "once-upon-your-mac",
+   "name": "Once Upon Your Mac bundle",
+   "url": "https://unclutterapp.com/bundle/",
+   "category": "desktop",
+   "discount": "75% off 12 Mac apps as a bundle, $59.99",
+   "code": "",
+   "starts": "2026-11-28",
+   "ends": "",
+   "description": "A Black Friday bundle of 12 indie Mac apps, including Unclutter, Moom, DaisyDisk, BetterZip, TextSniper and Default Folder X",
+   "added": "2026-11-28",
+   "image": "https://unclutterapp.com/images/bundle/ouym2026/graphics/bundle-image-ouym2026.jpg",
+   "logo": "https://unclutterapp.com/images/bundle/ouym2026/favicon@2x.png"
   },
   {
    "id": "opencomputer",

@@ -8,7 +8,7 @@ Black Friday 2026 deals on AI and developer tools.
 Grab a code, save some money, get back to building.
 
 <!-- stats:start -->
-**147 deals and counting** · last updated 28 Nov 2026
+**149 deals and counting** · last updated 28 Nov 2026
 <!-- stats:end -->
 
 **[Add your deal](https://github.com/meSingh/awesome-black-friday-dev-deals/new/main/deals?filename=your-product.yml&value=%23%20Add%20your%20Black%20Friday%20deal.%20It%20is%20free.%0A%23%0A%23%201.%20Rename%20this%20file%20to%20your%20product%2C%20for%20example%20acme-cli.yml%0A%23%20%20%20%20%28lowercase%20letters%2C%20digits%20and%20dashes%29.%0A%23%202.%20Fill%20in%20the%20lines%20below.%20Leave%20code%2C%20image%20and%20logo%20empty%20if%20you%20have%20none.%0A%23%203.%20Click%20%22Commit%20changes%22%2C%20then%20%22Create%20pull%20request%22.%20That%20is%20all.%0A%23%0A%23%20discount%20is%2060%20characters%20or%20fewer%2C%20for%20example%3A%2040%25%20off%20annual%20plans%0A%23%20category%20is%20one%20of%3A%20AI%20tools%20%7C%20AI%20video%2C%20image%20and%20voice%20%7C%20Developer%20tools%20%7C%20Hosting%20and%20cloud%20%7C%20Databases%20and%20backend%20%7C%20Email%20%7C%20Design%20and%20UI%20%7C%20Starter%20kits%20%7C%20SEO%20and%20marketing%20%7C%20Courses%20and%20books%20%7C%20Productivity%20%7C%20Mac%20and%20desktop%20apps%20%7C%20Security%20%7C%20Other%0A%23%20relation%20is%20one%20of%3A%20I%20built%20it%20%7C%20I%20use%20it%20%7C%20No%20relation%0A%23%20dates%20look%20like%202026-11-27.%20Leave%20ends%20empty%20if%20the%20deal%20has%20no%20end%20date.%0A%0Aname%3A%0Aurl%3A%0Acategory%3A%0Adiscount%3A%0Acode%3A%0Astarts%3A%0Aends%3A%0Adescription%3A%0Aimage%3A%0Alogo%3A%0Arelation%3A%0A)** · **[Star the list](https://github.com/meSingh/awesome-black-friday-dev-deals)** · **[Browse on dev.express](https://dev.express/black-friday/?utm_source=github&utm_medium=referral&utm_campaign=black-friday-2026)**
@@ -52,11 +52,11 @@ If the list helps you, a star and a share help other developers find it. Your li
 - [Databases and backend](#databases-and-backend) (2): Databases, auth, queues, search, backend services
 - [Email](#email) (7): Sending, testing and email marketing
 - [Design and UI](#design-and-ui) (10): UI kits, components, icons, design tools
-- [Starter kits](#starter-kits) (3): Code templates that get a product shipped sooner
+- [Starter kits](#starter-kits) (4): Code templates that get a product shipped sooner
 - [SEO and marketing](#seo-and-marketing) (15): SEO, analytics, social and messaging tools
 - [Courses and books](#courses-and-books) (17): Courses, books and certifications for engineers
 - [Productivity](#productivity) (7): Tasks, notes, meetings, focus
-- [Mac and desktop apps](#mac-and-desktop-apps) (23): Utilities a developer keeps open all day
+- [Mac and desktop apps](#mac-and-desktop-apps) (24): Utilities a developer keeps open all day
 - [Security](#security) (4): Scanning, secrets, sign-in, privacy
 - [Other](#other) (2): Useful to developers and not covered above
 <!-- toc:end -->
@@ -178,6 +178,7 @@ If the list helps you, a star and a share help other developers find it. Your li
 | Product | What it is | Deal | Dates | Link |
 |---|---|---|---|---|
 | [Frontkit](https://thefrontkit.com/templates?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Next.js business app templates and UI kits with full source code | **Up to 70% off kits** |  | [Get&nbsp;the&nbsp;deal](https://thefrontkit.com/templates?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
+| [MakerKit](https://makerkit.dev/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | A SaaS starter kit for Next.js with auth, billing and teams, sold as a one-time license for Supabase, Drizzle or Prisma stacks | **35% off the Supabase, Drizzle and Prisma kits** with code `BLACKFRIDAY2026` |  | [Get&nbsp;the&nbsp;deal](https://makerkit.dev/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [SaaSykit](https://saasykit.com/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Laravel SaaS starter kit with subscriptions, admin panel and optional multi-tenancy | **50% off all plans** |  | [Get&nbsp;the&nbsp;deal](https://saasykit.com/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [TurboStarter](https://www.turbostarter.dev/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | SaaS starter kit covering web app, mobile app and browser extension | **$150 off** |  | [Get&nbsp;the&nbsp;deal](https://www.turbostarter.dev/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 
@@ -249,6 +250,7 @@ If the list helps you, a star and a share help other developers find it. Your li
 | [JuxtaCode](https://juxtacode.app/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Mac app for browsing Git commits, comparing branches and resolving merge conflicts | **40% off** with code `BLACKFRIDAY26` | Until&nbsp;1&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://juxtacode.app/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [KeyboardStack](https://keyboardstack.com/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Control your Mac with the keyboard: navigate, click, scroll and switch windows | **50% off Premium, $14.99 instead of $29.99** | 27&nbsp;Nov&nbsp;to&nbsp;1&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://keyboardstack.com/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [Mole](https://mole.fit/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Native Mac app that cleans developer and AI tool caches, uninstalls apps and maps disk space | **20% off the one-time license** | 25&nbsp;Nov&nbsp;to&nbsp;30&nbsp;Nov | [Get&nbsp;the&nbsp;deal](https://mole.fit/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
+| [Once Upon Your Mac bundle](https://unclutterapp.com/bundle/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | A Black Friday bundle of 12 indie Mac apps, including Unclutter, Moom, DaisyDisk, BetterZip, TextSniper and Default Folder X | **75% off 12 Mac apps as a bundle, $59.99** |  | [Get&nbsp;the&nbsp;deal](https://unclutterapp.com/bundle/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [Proxyman](https://proxyman.com/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | HTTP and HTTPS debugging proxy for macOS, iOS, Windows and Linux | **30% off** with code `BF2026` |  | [Get&nbsp;the&nbsp;deal](https://proxyman.com/pricing?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [Remotr](https://remotr.app/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | Access your Mac from Windows over RDP, with clipboard sharing and multilingual input | **30% off Personal and Pro** with code `1RDUW7I6` | 27&nbsp;Nov&nbsp;to&nbsp;30&nbsp;Nov | [Get&nbsp;the&nbsp;deal](https://remotr.app/?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
 | [ScreenSage Pro](https://screensage.pro/bf2026?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) | A Mac screen recorder for demos and tutorials, with editing, a teleprompter and 3D motion | **46% off the lifetime license, $79.90 instead of $149** | 26&nbsp;Nov&nbsp;to&nbsp;15&nbsp;Dec | [Get&nbsp;the&nbsp;deal](https://screensage.pro/bf2026?utm_source=dev.express&utm_medium=github&utm_campaign=black-friday-2026) |
